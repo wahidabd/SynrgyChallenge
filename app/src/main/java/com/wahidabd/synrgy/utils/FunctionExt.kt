@@ -61,9 +61,9 @@ fun Double.formatCurrencyRp(): String {
 
 fun String.getPercentage(): Double {
     return when {
-        this.contains("20") -> 20.0 / 100.0
-        this.contains("18") -> 18.0 / 100.0
-        this.contains("15") -> 15.0 / 100.0
+        this.contains("20") -> 0.20
+        this.contains("18") -> 0.18
+        this.contains("15") -> 0.15
         else -> 0.0
     }
 }

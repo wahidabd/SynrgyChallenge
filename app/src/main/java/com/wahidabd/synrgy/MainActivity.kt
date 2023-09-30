@@ -7,6 +7,7 @@ import com.wahidabd.synrgy.databinding.ActivityMainBinding
 import com.wahidabd.synrgy.utils.formatCurrencyRp
 import com.wahidabd.synrgy.utils.getPercentage
 import com.wahidabd.synrgy.utils.toCurrencyTextWatcher
+import java.math.BigDecimal
 import kotlin.math.roundToInt
 
 class MainActivity : AppCompatActivity() {
@@ -27,11 +28,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun handleCalculate() = with(binding) {
-        val input = edtInput.text?.toString()?.toDouble() ?: 0.0
+        val input = edtInput.text?.toString()
+        val doubleValue = input?.replace(".", "")?.toDouble() ?: 0.0
 
         val result =
-            if (switchButton.isChecked) (input + (input * percentage)).roundToInt().toDouble()
-            else input + (input * percentage)
+            if (switchButton.isChecked) (doubleValue + (doubleValue * percentage)).roundToInt()
+                .toDouble()
+            else doubleValue + (doubleValue * percentage)
         tvResult.text = result.formatCurrencyRp()
     }
 
