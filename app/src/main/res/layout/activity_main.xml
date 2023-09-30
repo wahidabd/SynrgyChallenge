@@ -37,24 +37,28 @@
         android:text="@string/how_was_the_service" />
 
     <RadioGroup
+        android:id="@+id/rg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="4dp">
 
         <RadioButton
+            android:id="@+id/rb1"
             style="@style/RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/amazing_service" />
 
         <RadioButton
+            android:id="@+id/rb2"
             style="@style/RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/good_service" />
 
         <RadioButton
+            android:id="@+id/rb3"
             style="@style/RadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -102,6 +106,7 @@
             android:text="@string/tip_amount" />
 
         <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tvResult"
             style="@style/MaterialTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
