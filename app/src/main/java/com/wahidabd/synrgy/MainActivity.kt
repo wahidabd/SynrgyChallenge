@@ -1,11 +1,8 @@
 package com.wahidabd.synrgy
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.wahidabd.synrgy.adapter.PostAdapter
-import com.wahidabd.synrgy.adapter.StoryAdapter
+import androidx.appcompat.app.AppCompatActivity
 import com.wahidabd.synrgy.databinding.ActivityMainBinding
-import com.wahidabd.synrgy.utils.DummyData
 
 class MainActivity : AppCompatActivity() {
 
