@@ -1569,6 +1569,1801 @@
       "video": false,
       "vote_average": 3.9,
       "vote_count": 14
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/baLw3zvl9R31Ocxh7uIpkk5cLVx.jpg",
+      "genre_ids": [
+        10751,
+        14,
+        12
+      ],
+      "id": 893345,
+      "original_language": "en",
+      "original_title": "The Secret Kingdom",
+      "overview": "Verity and Peter’s trip to the old family mansion takes a turn when the floor of their room suddenly gives way and they fall into an underground chamber where they are met by a civilization of creatures. The leader tells them that Peter's arrival was foretold as he’s the one who can use Great Clock of the Citadel to restart time and destroy the Shroud, a malevolent creature who feeds on fear itself...",
+      "popularity": 62.268,
+      "poster_path": "/dteXMzVY53GBHUgrR7vigAartsP.jpg",
+      "release_date": "2023-04-27",
+      "title": "The Secret Kingdom",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 42
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cCIbJZVL3RQXp7CXohkAobhyNaw.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 1172029,
+      "original_language": "es",
+      "original_title": "Sobreviviendo mis XV",
+      "overview": "Quinceañeras, a magical age... except when your family wants to put you in a bulky dress and make you waltz in front of everyone, which is exactly what happens to Danae shortly after she transfers to a very proper private school.  Now Danae has to manage to balance the demands of her family, those of her new friends and organize a cool, but traditional, but modern, but emotional, but aesthetic, but also grandmother-pleasing Quinceañera party... without dying in the process.",
+      "popularity": 50.578,
+      "poster_path": "/2RAkn9fNsVJNG9Q0mdLuPrSqXQi.jpg",
+      "release_date": "2023-09-21",
+      "title": "Surviving My Quinceañera",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4osLKux8s7ieEdP9XwmNk446uxm.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80,
+        53
+      ],
+      "id": 899112,
+      "original_language": "en",
+      "original_title": "Violent Night",
+      "overview": "When a team of mercenaries breaks into a wealthy family compound on Christmas Eve, taking everyone inside hostage, the team isn’t prepared for a surprise combatant: Santa Claus is on the grounds, and he’s about to show why this Nick is no saint.",
+      "popularity": 61.489,
+      "poster_path": "/1XSYOP0JjjyMz1irihvWywro82r.jpg",
+      "release_date": "2022-11-30",
+      "title": "Violent Night",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 1605
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/n3pJwYuPnkw7JX7tOMbH0GRfBPn.jpg",
+      "genre_ids": [
+        14,
+        16,
+        10751
+      ],
+      "id": 408,
+      "original_language": "en",
+      "original_title": "Snow White and the Seven Dwarfs",
+      "overview": "A beautiful girl, Snow White, takes refuge in the forest in the house of seven dwarfs to hide from her stepmother, the wicked Queen. The Queen is jealous because she wants to be known as \"the fairest in the land,\" and Snow White's beauty surpasses her own.",
+      "popularity": 71.894,
+      "poster_path": "/9QKUh9UuIIT2ZA9Rby9R6vtNRKa.jpg",
+      "release_date": "1937-12-21",
+      "title": "Snow White and the Seven Dwarfs",
+      "video": false,
+      "vote_average": 7.1,
+      "vote_count": 6857
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/g8kCHQzfogy1t1dE9nPBtiFkz64.jpg",
+      "genre_ids": [
+        53,
+        878,
+        18
+      ],
+      "id": 729854,
+      "original_language": "ko",
+      "original_title": "콘크리트 유토피아",
+      "overview": "The world has been reduced to rubble by a massive earthquake. While no one knows for sure how far the ruins stretch, or what the cause of the earthquake may be, in the heart of Seoul there is only one apartment building left standing. It is called Hwang Gung Apartments.",
+      "popularity": 63.498,
+      "poster_path": "/bHH5jiumG6QXpvKfUEN2QsaBVV.jpg",
+      "release_date": "2023-08-09",
+      "title": "Concrete Utopia",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 14
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gcbZ2ZdVzfBsGmfjTy8g7UaZS16.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 747188,
+      "original_language": "en",
+      "original_title": "Asteroid City",
+      "overview": "In an American desert town circa 1955, the itinerary of a Junior Stargazer/Space Cadet convention is spectacularly disrupted by world-changing events.",
+      "popularity": 71.719,
+      "poster_path": "/tcKBclNUdkas4Jis8RYYZnPdTIm.jpg",
+      "release_date": "2023-06-08",
+      "title": "Asteroid City",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 963
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        35
+      ],
+      "id": 1160195,
+      "original_language": "en",
+      "original_title": "Welcome al Norte",
+      "overview": "Polito is the manager of a courier and parcel branch in Yucatán, who seeks to fulfill his dream of receiving a promotion and having a place in Cancun to move in with his wife Teo and son. Pressured by his wife, he will be willing to do anything to get it and he plans a strategy where he will achieve his transfer but a little further north: Tijuana.",
+      "popularity": 55.012,
+      "poster_path": "/tKW2R3S6ntb5mOQeomtz7YzgmQ0.jpg",
+      "release_date": "2023-09-14",
+      "title": "Welcome al Norte",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6fYTLy4QE55BgMiHF3Co7bErjry.jpg",
+      "genre_ids": [
+        10752,
+        53,
+        28,
+        12,
+        9648,
+        878,
+        18
+      ],
+      "id": 1018494,
+      "original_language": "en",
+      "original_title": "Operation Seawolf",
+      "overview": "During the last days of World War II, Germany, desperate for any last grasp to defeat the allied powers, looked to their last remaining weapons and soldiers. The German Navy and the last remaining U-Boats were formed together for one desperate last mission – a mission to attack the United States Homeland, known as Operation Seawolf. Captain Hans Kessler, a grizzled submarine commander from both World Wars, is called into service to make one mission a success and help turn the tide of the war.",
+      "popularity": 55.288,
+      "poster_path": "/eqm5EAyC9hJCN5qutuW4Ka1xYbU.jpg",
+      "release_date": "2022-10-07",
+      "title": "Operation Seawolf",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 86
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pP5HSq4MVJXUAXFjxC0WwIrP6uq.jpg",
+      "genre_ids": [
+        99,
+        27
+      ],
+      "id": 1033801,
+      "original_language": "en",
+      "original_title": "The Curse of Robert the Doll",
+      "overview": "Considered the most haunted doll in the world, Robert the Doll lives behind glass in a museum in Key West, Florida, where every year thousands of visitors who fail to follow his rules find themselves cursed. Victims have experienced illness, injury, accidents and even death. But what makes Robert curse his victims? What evil entity lives inside this doll? This latest Shock Docs installment explores the true origin of Robert the Doll, uncovers the story of Robert's first owners in 1905, and seeks to find out why this doll is so nefarious.",
+      "popularity": 84.147,
+      "poster_path": "/jhkzbOsnrhE6COA5mT3XLd5swKo.jpg",
+      "release_date": "2023-10-03",
+      "title": "The Curse of Robert the Doll",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zjmHE7pDSOFVOsfDTwSsczwXPdP.jpg",
+      "genre_ids": [
+        16,
+        35,
+        18
+      ],
+      "id": 783675,
+      "original_language": "ja",
+      "original_title": "THE FIRST SLAM DUNK",
+      "overview": "Shohoku's “speedster” and point guard, Ryota Miyagi, always plays with brains and lightning speed, running circles around his opponents while feigning composure. In his second year of high school, Ryota plays with the Shohoku High School basketball team along with Sakuragi, Rukawa, Akagi, and Mitsui as they take the stage at the Inter-High School National Championship. And now, they are on the brink of challenging the reigning champions, Sannoh Kogyo High School.",
+      "popularity": 60.779,
+      "poster_path": "/7i3EBXY87HdHagCoFbmjHQ8DlkG.jpg",
+      "release_date": "2022-12-03",
+      "title": "The First Slam Dunk",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 192
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        27
+      ],
+      "id": 1033667,
+      "original_language": "zh",
+      "original_title": "粽邪3：鬼門開",
+      "overview": "",
+      "popularity": 61.798,
+      "poster_path": "/qjAkIHxu8Ld60ZlzbO1dWlJ4fa9.jpg",
+      "release_date": "2023-08-25",
+      "title": "The Rope Curse 3",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        28,
+        80
+      ],
+      "id": 1046090,
+      "original_language": "zh",
+      "original_title": "周處除三害",
+      "overview": "The arrogant, third most-wanted criminal in Taiwan, decides to get rid of the top two competitors and crowns himself the most-wanted criminal before dying.",
+      "popularity": 41.579,
+      "poster_path": "/hjri88EtrmidogjMAwOjkwkKGoO.jpg",
+      "release_date": "2023-10-06",
+      "title": "The Pig, the Snake and the Pigeon",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/w8OpyJ7O3Uozflzxkn0J0TmowZn.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 729120,
+      "original_language": "es",
+      "original_title": "Cassandro",
+      "overview": "The true story of Saúl Armendáriz, a gay amateur wrestler from El Paso that rises to international stardom after he creates the character Cassandro, the “Liberace of Lucha Libre.” In the process, he upends not just the macho wrestling world but also his own life.",
+      "popularity": 52.697,
+      "poster_path": "/hWHwWsKVr5GkmOI1hWgHZBYkRwi.jpg",
+      "release_date": "2023-09-14",
+      "title": "Cassandro",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 64
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/s4ZcciKw9nMj6jbXo9SEJsvjmMS.jpg",
+      "genre_ids": [
+        18,
+        53
+      ],
+      "id": 912974,
+      "original_language": "en",
+      "original_title": "Accused",
+      "overview": "After a revenge obsessed society incorrectly selects its next target, a young man must survive the night as the online witch-hunt arrives at his front door.",
+      "popularity": 40.278,
+      "poster_path": "/jiXcYP1JwPj57JljO8mOIvFqPpx.jpg",
+      "release_date": "2023-10-05",
+      "title": "Accused",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 11
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cOF7XiobQU4TC2tKDPXJ8d2nULP.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 1024127,
+      "original_language": "en",
+      "original_title": "King of Killers",
+      "overview": "Garan is a part of a group of international hitmen who are contracted to take out the most dangerous killer in the world, only to find out that they're the ones being hunted.",
+      "popularity": 48.273,
+      "poster_path": "/x5AreOAgkTBzUSL58o4jsYortw2.jpg",
+      "release_date": "2023-09-01",
+      "title": "King of Killers",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 54
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/28er4p7B5zMSxUDQKPF1hBsgnys.jpg",
+      "genre_ids": [
+        28,
+        12,
+        53
+      ],
+      "id": 872906,
+      "original_language": "hi",
+      "original_title": "जवान",
+      "overview": "An emotional journey of a man who is set to rectify the wrongs in society, in an attempt to get even with his past, driven by a personal vendetta while keeping up to a promise made years ago.",
+      "popularity": 48.734,
+      "poster_path": "/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
+      "release_date": "2023-09-07",
+      "title": "Jawan",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 70
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2178xLOOzDzyAPMI7qpDU5W3Hya.jpg",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "id": 898673,
+      "original_language": "fr",
+      "original_title": "Passages",
+      "overview": "A gay couple's marriage is thrown into crisis when one of them impulsively begins a passionate affair with a young woman.",
+      "popularity": 71.438,
+      "poster_path": "/LAxf1EavHKv8NWEocRlSUUC4AN.jpg",
+      "release_date": "2023-06-28",
+      "title": "Passages",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 44
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8Y0RxH5cXiKV8C9Wyj6JkW9VYaG.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 994143,
+      "original_language": "en",
+      "original_title": "Skinamarink",
+      "overview": "Two children wake up in the middle of the night to find their father is missing, and all the windows and doors in their home have vanished.",
+      "popularity": 47.844,
+      "poster_path": "/8qOTi8VXvnuLH0jijMBCyygtV9d.jpg",
+      "release_date": "2023-01-13",
+      "title": "Skinamarink",
+      "video": false,
+      "vote_average": 5.7,
+      "vote_count": 153
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wNYUv8u5Z0AI4dkyxGyet7eLEWm.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 945675,
+      "original_language": "zh",
+      "original_title": "一周的朋友",
+      "overview": "A new transfer student, Lin Xiangzhi (Zhao Jinmai), who is quiet and intelligent but always alone, does not make friends with the other students. However, she attracts the attention of Xu Youshu (Lin Yi), a scum of the class. In the process of trying to befriend Lin Xiangzhi, he, the eccentric Song Xiaonan (Shen Yue) and the cool-headed Jiang Wu (Wang Jiahui) discover Lin Xiangzhi's secret, that she suffers from a special disease and her memory of her friends is only seven days.",
+      "popularity": 52.55,
+      "poster_path": "/wjYcNLVwFpSAGAPKgo0NIwhfWJS.jpg",
+      "release_date": "2022-06-18",
+      "title": "One Week Friends",
+      "video": false,
+      "vote_average": 5.7,
+      "vote_count": 110
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qAvou7F5P4VcIR72JzzrnKEQSN3.jpg",
+      "genre_ids": [
+        12,
+        14,
+        10751
+      ],
+      "id": 630,
+      "original_language": "en",
+      "original_title": "The Wizard of Oz",
+      "overview": "Young Dorothy finds herself in a magical world where she makes friends with a lion, a scarecrow and a tin man as they make their way along the yellow brick road to talk with the Wizard and ask for the things they miss most in their lives. The Wicked Witch of the West is the only thing that could stop them.",
+      "popularity": 58.219,
+      "poster_path": "/bSA6DbAC5gdkaooU164lQUX6rVs.jpg",
+      "release_date": "1939-08-15",
+      "title": "The Wizard of Oz",
+      "video": false,
+      "vote_average": 7.6,
+      "vote_count": 5123
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aRYhlWtxJoW8URLJJsPtn5788ge.jpg",
+      "genre_ids": [
+        80,
+        53,
+        28
+      ],
+      "id": 958006,
+      "original_language": "en",
+      "original_title": "The Kill Room",
+      "overview": "A hitman, his boss, an art dealer and a money-laundering scheme that accidentally turns the assassin into an overnight avant-garde sensation, one that forces her to play the art world against the underworld.",
+      "popularity": 68.422,
+      "poster_path": "/qKpdy7N6zX05eisopvvviiTwPxb.jpg",
+      "release_date": "2023-09-14",
+      "title": "The Kill Room",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 12
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sdwjQEM869JFwMytTmvr6ggvaUl.jpg",
+      "genre_ids": [
+        18,
+        53,
+        9648,
+        28
+      ],
+      "id": 670,
+      "original_language": "ko",
+      "original_title": "올드보이",
+      "overview": "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate businessman seeks revenge on his captors.",
+      "popularity": 49.557,
+      "poster_path": "/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+      "release_date": "2003-11-21",
+      "title": "Oldboy",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 7820
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gknIloEJve4FgAzlKdOUZu1K9HT.jpg",
+      "genre_ids": [
+        53
+      ],
+      "id": 1109534,
+      "original_language": "en",
+      "original_title": "The Dive",
+      "overview": "Two sisters go diving at a beautiful, remote location. One of the sisters is struck by a rock, leaving her trapped 28 meters below. With dangerously low levels of oxygen and cold temperatures, it is up to her sister to fight for her life.",
+      "popularity": 45.279,
+      "poster_path": "/o43eMkNkWBBsyxEyyUeQwl4AOe.jpg",
+      "release_date": "2023-08-24",
+      "title": "The Dive",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 41
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/d1A5OQ4PRYssLilGCTRxqwKSQ8q.jpg",
+      "genre_ids": [
+        36,
+        18,
+        53
+      ],
+      "id": 899524,
+      "original_language": "en",
+      "original_title": "Golda",
+      "overview": "Set during the tense 19 days of the Yom Kippur War in 1973, Israeli Prime Minister Golda Meir is faced with the potential of Israel’s complete destruction. She must navigate overwhelming odds, a skeptical cabinet and a complex relationship with US Secretary of State Henry Kissinger, with millions of lives in the balance. Her tough leadership and compassion would ultimately decide the fate of her nation and leave her with a controversial legacy around the world.",
+      "popularity": 45.046,
+      "poster_path": "/4SbxFDkhxZeAAN1zxgVJpdUB3V.jpg",
+      "release_date": "2023-03-30",
+      "title": "Golda",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 41
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qNmLEOGZy37vKAPqcTuZ47uCOS9.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 555285,
+      "original_language": "en",
+      "original_title": "Are You There God? It's Me, Margaret.",
+      "overview": "When her family moves from New York City to New Jersey, an 11-year-old girl navigates new friends, feelings, and the beginning of adolescence.",
+      "popularity": 41.256,
+      "poster_path": "/yb6UB4WC3znlwU0L4AqMnjR9G9S.jpg",
+      "release_date": "2023-03-29",
+      "title": "Are You There God? It's Me, Margaret.",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 136
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/a0GM57AnJtNi7lMOCamniiyV10W.jpg",
+      "genre_ids": [
+        16,
+        12,
+        14,
+        18
+      ],
+      "id": 508883,
+      "original_language": "ja",
+      "original_title": "君たちはどう生きるか",
+      "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother. As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\"",
+      "popularity": 43.303,
+      "poster_path": "/lXRhHtzbN47dFFpfeaJKUZVNu02.jpg",
+      "release_date": "2023-07-14",
+      "title": "The Boy and the Heron",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 21
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aRJjCgp4uVUkXhDw8NClesQXbt3.jpg",
+      "genre_ids": [
+        28,
+        9648,
+        53
+      ],
+      "id": 727340,
+      "original_language": "ko",
+      "original_title": "헌트",
+      "overview": "After a high-ranking North Korean official requests asylum, KCIA Foreign Unit chief Park Pyong-ho and Domestic Unit chief Kim Jung-do are tasked with uncovering a North Korean spy, known as Donglim, who is deeply embedded within their agency. When the spy begins leaking top secret intel that could jeopardize national security, the two units are each assigned to investigate each other.",
+      "popularity": 39.413,
+      "poster_path": "/tDe5eLxAbeK7sYckUn5aH3ngWnn.jpg",
+      "release_date": "2022-08-10",
+      "title": "Hunt",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 123
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/czVIuIXqDPgCBHI3vLYQcRtzAo7.jpg",
+      "genre_ids": [
+        35,
+        9648
+      ],
+      "id": 977506,
+      "original_language": "fr",
+      "original_title": "Mon crime",
+      "overview": "In 1930s Paris, Madeleine, a pretty, young, penniless and talentless actress, is accused of murdering a famous producer. Helped by her best friend Pauline, a young unemployed lawyer, she is acquitted on the grounds of self-defense. A new life of fame and success begins, until the truth comes out.",
+      "popularity": 41.233,
+      "poster_path": "/hcvhE2JWsidOxHL7yXk3MXs4vyt.jpg",
+      "release_date": "2023-03-08",
+      "title": "The Crime Is Mine",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 236
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hZ5r3hrbQ9uqXBxto1VpixOfqvj.jpg",
+      "genre_ids": [
+        18,
+        53
+      ],
+      "id": 870518,
+      "original_language": "en",
+      "original_title": "Sanctuary",
+      "overview": "Confined to a claustrophobic hotel room, the heir to a hotel empire and the dominatrix who has primed him for success become locked in a battle of wits and wills as he tries to end his relationship with her.",
+      "popularity": 43.688,
+      "poster_path": "/yGQAZupyZgT2ESbBSMZ9R0OBToo.jpg",
+      "release_date": "2023-04-06",
+      "title": "Sanctuary",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 74
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zqQbpTrk7B7SoqObkQwE1UsQkDI.jpg",
+      "genre_ids": [
+        99,
+        10770,
+        878
+      ],
+      "id": 887394,
+      "original_language": "en",
+      "original_title": "Ghost Adventures: Goldfield Hotel",
+      "overview": "The \"Ghost Adventures\" crew returns to where it all began to settle the score with sinister spirits at the infamous Goldfield Hotel; disturbing new evidence reveals a dark and deadly presence on the premises.",
+      "popularity": 51.226,
+      "poster_path": "/ld9NuYYfFR4kqIDOX83BA5w7RRj.jpg",
+      "release_date": "2023-10-03",
+      "title": "Ghost Adventures: Goldfield Hotel",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/68fnREIWiYQdzcgx9FsLBqLVxee.jpg",
+      "genre_ids": [
+        18,
+        28,
+        53
+      ],
+      "id": 853332,
+      "original_language": "fr",
+      "original_title": "Rebel",
+      "overview": "Kamal resolves to change his life for the better, and so leaves Belgium to help victims of the war in Syria. But when he arrives, he is forced to join a militia and is left stranded in Raqqa. Back home, his younger brother Nassim quickly becomes easy prey for radical recruiters, who promise to reunite him with his brother. Their mother, Leila, fights to protect the only thing she has left: her youngest son.",
+      "popularity": 32.47,
+      "poster_path": "/qw406kzethmStXYG4s9kCyojFaQ.jpg",
+      "release_date": "2022-08-31",
+      "title": "Rebel",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 26
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8TGfsSTWypvkcOX5sqQ7EuMmQkA.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 986054,
+      "original_language": "en",
+      "original_title": "Theater Camp",
+      "overview": "After the indomitable and beloved founder of a scrappy theater camp in upstate New York falls into a coma, the eccentric staff must band together with her clueless \"crypto-bro\" son to keep the thespian paradise afloat.",
+      "popularity": 37.28,
+      "poster_path": "/2osbLk1MMt9qjXPKSB2hMcBUyrw.jpg",
+      "release_date": "2023-07-13",
+      "title": "Theater Camp",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 57
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bk5l7vQKjypgPv74TlLQZzQmpCu.jpg",
+      "genre_ids": [
+        9648,
+        80,
+        18,
+        53
+      ],
+      "id": 1108211,
+      "original_language": "zh",
+      "original_title": "消失的她",
+      "overview": "He Fei's wife, Li Muzi, disappears during their anniversary trip. When she reappears, he insists that she is not his wife. As Chen Mai, a top lawyer gets involved in this bizarre case, more mysteries start to emerge.",
+      "popularity": 42.272,
+      "poster_path": "/oJ0X8ULclI1fQUXj14VcUFCjvXo.jpg",
+      "release_date": "2023-06-22",
+      "title": "Lost in the Stars",
+      "video": false,
+      "vote_average": 6.3,
+      "vote_count": 44
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cK9LrH5Ggqf2005AhWrpDT98bHU.jpg",
+      "genre_ids": [
+        28,
+        12
+      ],
+      "id": 732684,
+      "original_language": "ru",
+      "original_title": "Либерея: Охотники за сокровищами",
+      "overview": "While digging one of the many tunnels for the Moscow metro, Soviet workers unearth ruins of a dungeon. The site is closed, the metro tunnel is diverted, and amidst the bustle no one notices the tunnel workers’ foreman pocketing a little ‘souvenir’ – a book-sized frame made of precious metals featuring an inscription in an unknown language. Decades later, the foreman’s grandson Ilya, who works as a courier, discovers the ancient relic in a pile of old junk. Oblivious to the true value of the family heirloom, he soon learns about it from a mysterious stranger. The relic is the key to the secret location of the priceless ancient library that belonged to Ivan the Terrible. What Ilya doesn’t know is that the search for the lost library has been going on for centuries, and now very powerful people are after him. Ilya and the mysterious stranger decide to try their luck in finding the library.",
+      "popularity": 59.093,
+      "poster_path": "/lc0KueWbDDwIsg76JnPohA7jday.jpg",
+      "release_date": "2022-10-27",
+      "title": "Raiders of the Lost Library",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 9
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fFCfl9WegDQoSPlJL3nCNJoSuQM.jpg",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "id": 897087,
+      "original_language": "en",
+      "original_title": "Freelance",
+      "overview": "An ex special forces operative stuck in a dead-end desk job reluctantly takes on a gig to provide private security for a washed-up journalist as she interviews a ruthless—but impeccably dressed—dictator. When a military coup breaks out just as she's about to get the scoop of a lifetime, the unlikely trio must figure out how to survive the jungle, the assassins, and each other in order to make it out alive.",
+      "popularity": 47.335,
+      "poster_path": "/7cpAXiwsdFx6GGU0TBGRvDYJuRQ.jpg",
+      "release_date": "2023-10-05",
+      "title": "Freelance",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nKOutYdpjpxdeftoXcDnSAaD2z8.jpg",
+      "genre_ids": [
+        53,
+        27
+      ],
+      "id": 954388,
+      "original_language": "en",
+      "original_title": "Quicksand",
+      "overview": "A married couple on the brink of divorce becomes trapped in quicksand while hiking through a Colombian rainforest. It’s a struggle for survival as they battle the elements of the jungle and must work together in order to escape.",
+      "popularity": 37.523,
+      "poster_path": "/cVLfO3CbVg8p5Qcaifq6AidOe2w.jpg",
+      "release_date": "2023-08-31",
+      "title": "Quicksand",
+      "video": false,
+      "vote_average": 6.6,
+      "vote_count": 9
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/6uChT8jRjTwcVo4X5pIUctsl1qN.jpg",
+      "genre_ids": [
+        28
+      ],
+      "id": 9461,
+      "original_language": "en",
+      "original_title": "Enter the Dragon",
+      "overview": "A martial artist agrees to spy on a reclusive crime lord using his invitation to a tournament there as cover.",
+      "popularity": 45.44,
+      "poster_path": "/fyrh2ULEcmLpGTVLPQqFW45hqr5.jpg",
+      "release_date": "1973-08-17",
+      "title": "Enter the Dragon",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 1696
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/b9boCGebCqq8hrZwEsQfSqQG7bT.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1130659,
+      "original_language": "en",
+      "original_title": "Breaking Point",
+      "overview": "Two adopted brothers filled with resentment for each other after the loss of their mother, united in their love of breakdancing, find themselves thrust together as they embark on a journey for the Gold. ​",
+      "popularity": 34.299,
+      "poster_path": "/gPTHb636P8kVTTuxlWu1lnQhmPq.jpg",
+      "release_date": "2023-10-05",
+      "title": "Breaking Point",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cVv0FuywCKLcbcRSq6ggThZpH4I.jpg",
+      "genre_ids": [
+        878,
+        27
+      ],
+      "id": 1183387,
+      "original_language": "es",
+      "original_title": "Ánima",
+      "overview": "Samuel is surprised by a subject identical to him and begins to discover that the world around him is controlled by someone superior.",
+      "popularity": 56.703,
+      "poster_path": "/eTIyXfoMHxlEEb8HkIC36LAL1qF.jpg",
+      "release_date": "2023-09-01",
+      "title": "Ánima",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1OD1Uf1934VxlAC19NZcVJUu0Eu.jpg",
+      "genre_ids": [
+        27,
+        35
+      ],
+      "id": 1008392,
+      "original_language": "en",
+      "original_title": "The Blackening",
+      "overview": "Seven black friends go away for the weekend, only to find themselves trapped in a cabin with a killer who has a vendetta. They must pit their street smarts and knowledge of horror movies against the murderer to stay alive.",
+      "popularity": 44.368,
+      "poster_path": "/ooB4KSRRhp7XYRQUmsi82iFnMNC.jpg",
+      "release_date": "2023-06-15",
+      "title": "The Blackening",
+      "video": false,
+      "vote_average": 6.2,
+      "vote_count": 120
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/rHnANzYUmV3WZw3n0yWOLiR3pen.jpg",
+      "genre_ids": [
+        53
+      ],
+      "id": 976912,
+      "original_language": "en",
+      "original_title": "Graphic Desires",
+      "overview": "When reclusive Franklin cheats on his partner with a mysterious girl he meets on a dating app, it becomes the start of a deadly obsession.",
+      "popularity": 28.281,
+      "poster_path": "/3BjLdTWRiHc1ISIZMFvToOmghOM.jpg",
+      "release_date": "2023-08-31",
+      "title": "Graphic Desires",
+      "video": false,
+      "vote_average": 1,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sb6YO8QwlJYJZCYroVWV0psNmXL.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1105832,
+      "original_language": "en",
+      "original_title": "Simón",
+      "overview": "Simón, a Venezuelan freedom fighter exiled in Miami, copes not only with trauma, but also deep guilt over a choice he must make: stay in Miami and start a new life, or return home to the losing fight against a tyrannical regime.",
+      "popularity": 29.367,
+      "poster_path": "/bRKUU9mbRK6vwp2BZIlaAZCekMz.jpg",
+      "release_date": "2023-04-15",
+      "title": "Simón",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jgGP3HxKUrYM7sPIFVH7L0k8Mmq.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 1094403,
+      "original_language": "en",
+      "original_title": "Malum",
+      "overview": "A rookie police officer willingly takes the last shift at a newly decommissioned police station in an attempt to uncover the mysterious connection between her father's death and a vicious cult.",
+      "popularity": 30.273,
+      "poster_path": "/m1rcLLs0KmS8Cg60sLoMZC2OyDR.jpg",
+      "release_date": "2023-03-31",
+      "title": "Malum",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 49
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/agJTpYOjSSG9uZe5xVZHL8nE6nj.jpg",
+      "genre_ids": [
+        27,
+        9648,
+        53
+      ],
+      "id": 841742,
+      "original_language": "fr",
+      "original_title": "Megalomaniac",
+      "overview": "Felix and Martha, the two offspring of legendary serial murderer The Skinner of Mons, grapple with the grotesque legacy bequeathed to them. While Martha works a menial janitorial job, Felix continues his father's reign of terror. But following a brutal attack at work, Martha quickly descends into madness, finding she must come to terms with the infamous blood that flows through her veins.",
+      "popularity": 43.83,
+      "poster_path": "/bgullymFFblfNaEqRX2j74oTIQ.jpg",
+      "release_date": "2023-09-08",
+      "title": "Megalomaniac",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 8
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qmDdCfqY7EG9igPv8G6YI703heN.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 915523,
+      "original_language": "en",
+      "original_title": "Wildflower",
+      "overview": "The story of Bea Johnson from birth to graduation as she navigates life with an intellectually disabled parent and an extended family who can't quite agree on the best way to help.",
+      "popularity": 30.056,
+      "poster_path": "/ilQAelP061WlgL9oSROetd5PfpA.jpg",
+      "release_date": "2023-03-17",
+      "title": "Wildflower",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 28
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xSwpkY36ngFgnMYvJnGbDeT3p0O.jpg",
+      "genre_ids": [
+        99
+      ],
+      "id": 1184431,
+      "original_language": "en",
+      "original_title": "Sandtown",
+      "overview": "30 years after a team of young social-justice-warriors move to Sandtown, a crumbling neighborhood in West Baltimore, the son of two of them returns home to reconnect with friends and explore what, if anything, has changed. In the process he rediscovers the story of his life.",
+      "popularity": 23.419,
+      "poster_path": "/qCIp1OZGfjXRMQ1RSfdZhnOsAPp.jpg",
+      "release_date": "2023-10-09",
+      "title": "Sandtown",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kszooR7v1TLFM4pzx6IkKq2jDAN.jpg",
+      "genre_ids": [
+        18,
+        80,
+        9648
+      ],
+      "id": 915935,
+      "original_language": "fr",
+      "original_title": "Anatomie d’une chute",
+      "overview": "Sandra, Samuel and their visually impaired son Daniel have been living in a remote mountain location for the past year. When Samuel is found dead outside the house, an investigation for death in suspicious circumstances is launched. Amidst the uncertainty, Sandra is indicted: was it suicide or homicide? A year later Daniel attends his mother’s trial, a veritable dissection of his parents’ relationship.",
+      "popularity": 34.156,
+      "poster_path": "/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+      "release_date": "2023-08-23",
+      "title": "Anatomy of a Fall",
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 211
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1bxLr2F5IyfBhGtxe5hzIOO43Hz.jpg",
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
+      "id": 503417,
+      "original_language": "en",
+      "original_title": "She Came to Me",
+      "overview": "Composer Steven Lauddem is plagued by a creative block which leaves him unable to finish the score for his big comeback opera. When his former therapist-turned-wife Patricia suggests he rekindle his creativity by getting lost in the city, Steven sets out in search of inspiration. His epiphany comes after he meets a spirited woman named Katrina and discovers his life has much more potential than he bargained for, or ever could have imagined.",
+      "popularity": 21.611,
+      "poster_path": "/2lG18RqCK8qTk7R5jA1L7ZRMWXu.jpg",
+      "release_date": "2023-10-06",
+      "title": "She Came to Me",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kmsC7wvrKbla7kCg6YTWHtxmaGI.jpg",
+      "genre_ids": [
+        18,
+        10749,
+        53
+      ],
+      "id": 869612,
+      "original_language": "en",
+      "original_title": "Master Gardener",
+      "overview": "Narvel Roth is a meticulous horticulturist who is devoted to tending the grounds of a beautiful estate and pandering to his employer, the wealthy dowager Mrs. Haverhill. When she demands that he take on her wayward and troubled niece, it unlocks dark secrets from a buried violent past.",
+      "popularity": 24.218,
+      "poster_path": "/afkyHDaMblwX2F1zJzMrTnPsDUH.jpg",
+      "release_date": "2023-05-19",
+      "title": "Master Gardener",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 99
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bmStpqOfwZt7tUbGZXp3VbSL8a0.jpg",
+      "genre_ids": [
+        878,
+        53
+      ],
+      "id": 942199,
+      "original_language": "en",
+      "original_title": "Simulant",
+      "overview": "Faye attempts to replace her newly deceased husband, Evan, with an android simulant (SIM). Although SIM Evan appears like human Evan in every way, Faye does not feel the same love for SIM Evan as it does for her. SIM Evan tries to win Faye back while at the same time being on-the-run from a government agent chasing down SIMs who have become “conscious” and could potentially be a threat to humankind.",
+      "popularity": 32.44,
+      "poster_path": "/kmDJhZIq1xnu5ZiMOlb0nHJH1qb.jpg",
+      "release_date": "2023-03-29",
+      "title": "Simulant",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 105
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1pz4ZArUTM1jrpR6XkYuDlEQncG.jpg",
+      "genre_ids": [
+        12,
+        18,
+        36,
+        53,
+        10752
+      ],
+      "id": 5925,
+      "original_language": "en",
+      "original_title": "The Great Escape",
+      "overview": "The Nazis, exasperated at the number of escapes from their prison camps by a relatively small number of Allied prisoners, relocate them to a high-security 'escape-proof' camp to sit out the remainder of the war. Undaunted, the prisoners plan one of the most ambitious escape attempts of World War II. Based on a true story.",
+      "popularity": 33.507,
+      "poster_path": "/gBH4H8UMFxl139HaLz6lRuvsel8.jpg",
+      "release_date": "1963-07-03",
+      "title": "The Great Escape",
+      "video": false,
+      "vote_average": 7.9,
+      "vote_count": 2285
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zUK4rRNuKfv9R33g18FR5dtEMLn.jpg",
+      "genre_ids": [
+        35,
+        878,
+        10749,
+        14
+      ],
+      "id": 723347,
+      "original_language": "en",
+      "original_title": "Robots",
+      "overview": "A womanizer and a gold digger trick people into relationships with illegal robot doubles. When they unwittingly use this scam on each other, their robot doubles fall in love and elope, forcing the duo to team up to hunt them down before the authorities discover their secret.",
+      "popularity": 29.032,
+      "poster_path": "/yf7aXA3qC3MA5fqnBmnFsrdZDDN.jpg",
+      "release_date": "2023-04-26",
+      "title": "Robots",
+      "video": false,
+      "vote_average": 5.8,
+      "vote_count": 126
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/a2n6bKD7qhCPCAEALgsAhWOAQcc.jpg",
+      "genre_ids": [
+        878,
+        53,
+        18
+      ],
+      "id": 49047,
+      "original_language": "en",
+      "original_title": "Gravity",
+      "overview": "Dr. Ryan Stone, a brilliant medical engineer on her first Shuttle mission, with veteran astronaut Matt Kowalsky in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The Shuttle is destroyed, leaving Stone and Kowalsky completely alone-tethered to nothing but each other and spiraling out into the blackness of space. The deafening silence tells them they have lost any link to Earth and any chance for rescue. As fear turns to panic, every gulp of air eats away at what little oxygen is left. But the only way home may be to go further out into the terrifying expanse of space.",
+      "popularity": 29.814,
+      "poster_path": "/kZ2nZw8D681aphje8NJi8EfbL1U.jpg",
+      "release_date": "2013-10-03",
+      "title": "Gravity",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 14480
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/a9tg4d2qbLcbt22UqtqTvz6VQWS.jpg",
+      "genre_ids": [
+        18,
+        14
+      ],
+      "id": 761851,
+      "original_language": "en",
+      "original_title": "His Only Son",
+      "overview": "By God's order, Abraham was commanded to sacrifice his son Isaac on the mountain of Moriah. While traveling to the place of the sacrifice, alongside Isaac and two servants, Abraham is flooded with vivid memories from the years he and Sarah spent longing for the son they were promised—the son he must now lay upon the altar.",
+      "popularity": 26.654,
+      "poster_path": "/e85UDGmD9HmKcS0BOgoha029bkK.jpg",
+      "release_date": "2023-03-30",
+      "title": "His Only Son",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/vZaIAIX5XcXLsF4jRSp5x7wsRzn.jpg",
+      "genre_ids": [
+        80,
+        28
+      ],
+      "id": 783110,
+      "original_language": "ko",
+      "original_title": "밀수",
+      "overview": "Set in the 1970's, a smuggling operation exits within a small peaceful village by the sea. Those that are involved in the smuggling operation are Chun-ja, who works as a smuggler to make a living, her friend Jin-suk, who leads a group of female divers, and Master Sergeant Kwon. Master Sergeant Kwon is the king of smugglers nationally.",
+      "popularity": 27.854,
+      "poster_path": "/dJqOQTOwnBkFuLoqFwMefBDCVIG.jpg",
+      "release_date": "2023-07-26",
+      "title": "Smugglers",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zJWURVBStetlB9L8ntq4Dy3Ejrv.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        35
+      ],
+      "id": 916423,
+      "original_language": "nl",
+      "original_title": "Knor",
+      "overview": "A young girl sets out to prove to her disapproving mother she can house-train the endearing but unruly little piglet she gets as a birthday gift from her estranged oddball grandfather.",
+      "popularity": 30.227,
+      "poster_path": "/6QbTLuLF3vslLn4K5IcIBas1Rh8.jpg",
+      "release_date": "2022-07-01",
+      "title": "Oink",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 30
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/bFGTEi5xBYLQtFiXKnYcAR88vbL.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 1102425,
+      "original_language": "en",
+      "original_title": "Don't Look Away",
+      "overview": "After a gang of criminals unintentionally unleashes a supernatural force onto the world, a young woman named Frankie is convinced she's being stalked by a killer mannequin. Frankie soon realizes that her friends are in jeopardy too. She must find the man who holds the key to stopping the killings, but Frankie knows that once you see the mannequin, there may be no end in sight, except for your own.",
+      "popularity": 37.297,
+      "poster_path": "/iiYx85daT0DzoU4XQGgaynvDtn8.jpg",
+      "release_date": "2023-09-01",
+      "title": "Don't Look Away",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/jg1UcvnzTiLNOdzYnmrroDkQYbM.jpg",
+      "genre_ids": [
+        16,
+        12,
+        35,
+        10751,
+        14
+      ],
+      "id": 681303,
+      "original_language": "de",
+      "original_title": "Meine Chaosfee & Ich",
+      "overview": "Violetta (337), a curious and cheeky fairy, gets lost in the human world. To find her way back to the fairy world, she teams up with the human girl Maxie (12) and discovers her true destiny.",
+      "popularity": 27.217,
+      "poster_path": "/wXsCtzppdU1SUvTtxznJyi9hiXv.jpg",
+      "release_date": "2022-10-13",
+      "title": "My Fairy Troublemaker",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 32
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yF3LqCRad6OWexlFhwxu9Vm1SZD.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 936362,
+      "original_language": "de",
+      "original_title": "Eismayer",
+      "overview": "Vice Lieutenant Eismayer is the most feared trainer and model macho in the Austrian Military and lives as a gay man in secret. When he falls in love with a young, openly gay soldier, his world gets turned upside down.",
+      "popularity": 24.028,
+      "poster_path": "/ev4BO0x9ZWredBp4xqPiKxkHmB4.jpg",
+      "release_date": "2022-10-28",
+      "title": "Eismayer",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 1116415,
+      "original_language": "en",
+      "original_title": "Rhapsody in Justice",
+      "overview": "A Cable News program is born after the Election of Donald Trump. Influenced by past Civil Rights struggles the Producers are guided by the mystic spirit of children.",
+      "popularity": 24.311,
+      "poster_path": "/3hr9GMaET10NgfrHP6VWHcpyzQA.jpg",
+      "release_date": "2023-10-09",
+      "title": "Rhapsody in Justice",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zXyYAcZmTh1l6jaJzl8cxP5NN9P.jpg",
+      "genre_ids": [
+        16,
+        12,
+        14
+      ],
+      "id": 1089654,
+      "original_language": "zh",
+      "original_title": "长安三万里",
+      "overview": "A few years after the Anshi Rebellion, the Tibetan army invaded the southwest and the Tang dynasty military commander Gao Shi suffered a defeat in battle. Chang'an was in imminent danger. Gao Shi, who was trapped in the besieged city, recalled his past experiences with Li Bai to the eunuch who served as the military supervisor.",
+      "popularity": 28.283,
+      "poster_path": "/xe7TfaryOTdmn8BEU8fNlYfVQhS.jpg",
+      "release_date": "2023-07-02",
+      "title": "Chang An",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 17
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oGZei32e4tKb6rhDTpDr2ZwAOur.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1032194,
+      "original_language": "en",
+      "original_title": "The Blind",
+      "overview": "In the 1960s Deep South, Phil Robertson seeks to conquer the shame of his past, addiction and complicated family dynamics, ultimately finding redemption in an unlikely place.",
+      "popularity": 24.742,
+      "poster_path": "/lkWIScXflR9sG7XPlH9TWuU7XMj.jpg",
+      "release_date": "2023-09-28",
+      "title": "The Blind",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/j39vXGEIwBI15TF02C9rR19LUJA.jpg",
+      "genre_ids": [
+        53,
+        18,
+        10749
+      ],
+      "id": 989672,
+      "original_language": "fr",
+      "original_title": "L'Amour et les Forêts",
+      "overview": "When Blanche meets Grégoire, she thinks she has found the one. The ties that bind them grow quickly, and a passionate affair ensues. Together, they relocate. For Blanche, far from her family, from her twin sister, Rose, a new life begins. But little by little, she finds herself caught in the grip of a deeply possessive and dangerous man.",
+      "popularity": 21.962,
+      "poster_path": "/bMYUYy5rR08Zh3pAmmWMH2gsrZV.jpg",
+      "release_date": "2023-05-24",
+      "title": "Just the Two of Us",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 120
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/pcWxKfFNCznTKYy0E8M9nG1cwL4.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 391713,
+      "original_language": "en",
+      "original_title": "Lady Bird",
+      "overview": "Lady Bird McPherson, a strong willed, deeply opinionated, artistic 17 year old comes of age in Sacramento. Her relationship with her mother and her upbringing are questioned and tested as she plans to head off to college.",
+      "popularity": 35.389,
+      "poster_path": "/iySFtKLrWvVzXzlFj7x1zalxi5G.jpg",
+      "release_date": "2017-09-01",
+      "title": "Lady Bird",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 7878
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hzVbGKej4ONa0WzKsGOhz63QIjV.jpg",
+      "genre_ids": [
+        27,
+        9648
+      ],
+      "id": 1024773,
+      "original_language": "en",
+      "original_title": "It Lives Inside",
+      "overview": "An Indian-American teenager struggling with her cultural identity has a falling out with her former best friend and, in the process, unwittingly releases a demonic entity that grows stronger by feeding on her loneliness.",
+      "popularity": 25.245,
+      "poster_path": "/meMZCf4SyH7p3F6c46wNn91enSn.jpg",
+      "release_date": "2023-09-06",
+      "title": "It Lives Inside",
+      "video": false,
+      "vote_average": 5.2,
+      "vote_count": 14
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/2azH3Kzm1GmdKLVdhks6mcYRmTX.jpg",
+      "genre_ids": [
+        28,
+        12,
+        18
+      ],
+      "id": 862855,
+      "original_language": "zh",
+      "original_title": "峰爆",
+      "overview": "The opening of the new tunnel, which took ten years to build, coincided with a series of serious cataclysms. The lives of 160,000 people depend on the actions of two people, a father and a son.",
+      "popularity": 25.553,
+      "poster_path": "/9gKfAKiFT5VHbqx5DgPsuUHS2te.jpg",
+      "release_date": "2021-09-11",
+      "title": "Cloudy Mountain",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 170
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tOfJuyfEbUMSSyBK24CAehphKwD.jpg",
+      "genre_ids": [
+        18,
+        10749,
+        53
+      ],
+      "id": 603204,
+      "original_language": "en",
+      "original_title": "Stars at Noon",
+      "overview": "In present-day Nicaragua, a headstrong American journalist and a mysterious English businessman strike up a romance as they become embroiled in a dangerous labyrinth of lies and conspiracies and are forced to try and escape the country.",
+      "popularity": 30.136,
+      "poster_path": "/viR50oQCs8ObciADFGWHUyChexZ.jpg",
+      "release_date": "2022-10-14",
+      "title": "Stars at Noon",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 61
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/tnJhsuLigMBWWMm7qEpUcUkl1Ni.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 980816,
+      "original_language": "en",
+      "original_title": "Miranda's Victim",
+      "overview": "The true story of Trish Weir who in 1963 was kidnapped and brutally raped by Ernesto Miranda. Committed to putting her assailant in prison, Trish’s life is destroyed by America’s legal system as she triggers a law that transforms the nation.",
+      "popularity": 19.095,
+      "poster_path": "/82lu2Rb0MoBpfyUtoVwhLiVrDlF.jpg",
+      "release_date": "2023-10-06",
+      "title": "Miranda's Victim",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/oKc1OJIrwnGGrfaIQQkeSlcrMoK.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 914216,
+      "original_language": "en",
+      "original_title": "The Lost King",
+      "overview": "An amateur historian defies the academic establishment in her efforts to find King Richard III's remains, which were lost for over 500 years.",
+      "popularity": 28.491,
+      "poster_path": "/f3kOebicMlDMrfe0kTJ2YxqnFw0.jpg",
+      "release_date": "2022-10-07",
+      "title": "The Lost King",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 92
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/1GGfWFp9hp4RUHRHxd505z9rVFa.jpg",
+      "genre_ids": [
+        12,
+        14,
+        35,
+        10751
+      ],
+      "id": 9607,
+      "original_language": "en",
+      "original_title": "Super Mario Bros.",
+      "overview": "Mario and Luigi, plumbers from Brooklyn, find themselves in an alternate universe where evolved dinosaurs live in hi-tech squalor. They're the only hope to save our universe from invasion by the dino dictator, Koopa.",
+      "popularity": 24.33,
+      "poster_path": "/yt5bbMfKpg1nRr4k5edxs7tPK2m.jpg",
+      "release_date": "1993-05-28",
+      "title": "Super Mario Bros.",
+      "video": false,
+      "vote_average": 4.4,
+      "vote_count": 1189
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wO46AY2nLQoLdRYD64FS5AsUCbP.jpg",
+      "genre_ids": [
+        53
+      ],
+      "id": 888195,
+      "original_language": "en",
+      "original_title": "Hot Seat",
+      "overview": "An ex-hacker is forced to break into high-level banking institutions, another man must try to penetrate the booby-trapped building to get the young man off the hot seat.",
+      "popularity": 24.317,
+      "poster_path": "/6zoA2yEfKs8hNFlk4AV28VpoT3I.jpg",
+      "release_date": "2022-07-01",
+      "title": "Hot Seat",
+      "video": false,
+      "vote_average": 5.3,
+      "vote_count": 96
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/afNkBbNk4v9jBEx5J655SDJmmYG.jpg",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "id": 763165,
+      "original_language": "en",
+      "original_title": "The Burial",
+      "overview": "A lawyer helps a funeral home owner save his family business from a corporate behemoth. In a move to bring resonance to a dry case, the lawyer digs up a complex web of race, power, and oppression that forces everyone to examine prejudices.",
+      "popularity": 25.807,
+      "poster_path": "/s6cr2W45CkFZLttXAeH8iiZwZLk.jpg",
+      "release_date": "2023-10-06",
+      "title": "The Burial",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kMeDACpkeCBYhWnkrdQvgCsOIgG.jpg",
+      "genre_ids": [
+        35,
+        10749,
+        18
+      ],
+      "id": 639,
+      "original_language": "en",
+      "original_title": "When Harry Met Sally...",
+      "overview": "During their travel from Chicago to New York, Harry and Sally debate whether or not sex ruins a friendship between a man and a woman. Eleven years later, and they're still no closer to finding the answer.",
+      "popularity": 22.624,
+      "poster_path": "/3wkbKeowUp1Zpkw1KkBqMWbt0P9.jpg",
+      "release_date": "1989-07-21",
+      "title": "When Harry Met Sally...",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 3665
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        35,
+        10749
+      ],
+      "id": 1183241,
+      "original_language": "sq",
+      "original_title": "Në kuadër të dashurisë",
+      "overview": "The story of a couple married for 10 years who decide to end their relationship without understanding the implications of this separation for their families. The decision to separate will make them know the limits of each other and their loved ones in situations full of humor and love. Because when love is still there, nothing is impossible.",
+      "popularity": 18.159,
+      "poster_path": "/vcHTmKBXIehD913F7Bg0vZeIKeM.jpg",
+      "release_date": "2023-10-09",
+      "title": "Në kuadër të dashurisë",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18
+      ],
+      "id": 1168315,
+      "original_language": "tl",
+      "original_title": "The Blind Soldiers",
+      "overview": "Set in a rural Mindanao, as the Japanese invasion intensifies, five men from the Teduray tribe of Cotabato enlisted in the United States of Armed Forces in the Far East (USAFFE) during the World War Two. What starts as a noble intention soon turns out to be a nightmare when they realized the magnitude of the war they signed up for, compounding their struggle is the fact that they are illiterates.",
+      "popularity": 20.814,
+      "poster_path": "/tncTLlOGDM8bvuhjfHAJCfns24V.jpg",
+      "release_date": "2023-09-15",
+      "title": "The Blind Soldiers",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18
+      ],
+      "id": 1086898,
+      "original_language": "en",
+      "original_title": "Jia",
+      "overview": "Ming, a grieving Chinese mother, arrives in Australia to embark on a road trip with a young Caucasian man, Eric to remember her late son. But she soon discovers that Eric was in a romantic relationship with her son, which clashes with her conservative values.",
+      "popularity": 16.949,
+      "poster_path": "/n3za9OfW5nH3pQnA0Rob6KFcSbJ.jpg",
+      "release_date": "2023-10-09",
+      "title": "Jia",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18
+      ],
+      "id": 1100709,
+      "original_language": "pt",
+      "original_title": "Dinho",
+      "overview": "Dinho is concerned with abandonment. His biological mother returns, promising she will stay, while his best friend is about to leave. Between child’s play and caring for a sick aunt, he finds some time to dream. Life has not been easy for them: they cling to the final moments of childhood, which seem to no longer belong to them.",
+      "popularity": 16.656,
+      "poster_path": "/woV7Z0jP9fFLzAIUtgJ28gGASuA.jpg",
+      "release_date": "2023-10-09",
+      "title": "Dinho",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ydsnXAScnfoPuHB841lGB9CjqKf.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 1170463,
+      "original_language": "es",
+      "original_title": "Rutina",
+      "overview": "A closeted gay teen has to break through a daily routine that keeps him tied into a life full of fear and homophobia, even though the struggle eventually will take him to confront society itself.",
+      "popularity": 17.087,
+      "poster_path": "/tHNpU9EdkLlTeueXlzkHpElHroz.jpg",
+      "release_date": "2023-10-09",
+      "title": "Rutina",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7KJgU1ZN7k1YQtY14l6VsnODbeL.jpg",
+      "genre_ids": [
+        18,
+        9648,
+        80
+      ],
+      "id": 1006763,
+      "original_language": "zh",
+      "original_title": "查無此心",
+      "overview": "On New Year's Eve with brilliant fireworks, the lonely Wu Jie drove to the river bank, intending to kill herself, but was interrupted by screams. Wu Jie came to the river and found a swollen female corpse. The corpse seems to be preventing Wu Jie from looking for shortness in the dark. Originally thought it was a simple electric fish accident, after the forensic autopsy, the left ring finger of the deceased's left hand was cut off, and her heart was also dug out! At this time, an anonymous The phone call saved the overwhelmed and clueless police officers and let Wu Jie know the identity of the deceased was a lost migrant worker! He followed the line to find Lin Yousheng. Not only was Lin Yousheng stunned to learn that Wu Jie had brought the news of his girlfriend's death, He was even regarded as the number one suspect in the murder of his girlfriend... \"Interpol\" and \"Illegal Migrant Worker\" had to jointly pursue the murderer!",
+      "popularity": 23.195,
+      "poster_path": "/xEQtdQ12BGcipRppqwVhhIWTmQL.jpg",
+      "release_date": "2023-09-08",
+      "title": "The Abandoned",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/xM9LUvJ0EC2OyQqbwEyKYxsxw2d.jpg",
+      "genre_ids": [
+        18,
+        10751
+      ],
+      "id": 1181576,
+      "original_language": "es",
+      "original_title": "Tomás",
+      "overview": "Tomás is an old man who suffers from Alzheimer's disease dependent on his family who has a complicated relationship with him due to his condition, which causes a conflict of interest with Tomás' daughter wanting him to live, her granddaughter being completely indifferent, and his son-in-law. wanting him to die.",
+      "popularity": 17.842,
+      "poster_path": "/1ZrvX1eYi1vZFhMCaobetYofUvA.jpg",
+      "release_date": "2023-10-09",
+      "title": "Tomás",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ep3FqRv9YxkIFIjj8rHlVesbRGd.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 967585,
+      "original_language": "fr",
+      "original_title": "Alibi.com 2",
+      "overview": "After closing his agency Alibi.com and promising Flo that he would never lie to her again, Greg's new life became quiet, too quiet... Not for long! When he decides to propose to Flo, Greg is up against the wall and has to introduce his family. But with his crooked father and his ex-charm actress mother, this could ruin his future union. He has no choice but to reopen his agency with his former accomplices for an ultimate Alibi and to find more presentable fake parents.",
+      "popularity": 20.305,
+      "poster_path": "/9gteYoeW0wOvYHnnvXJpq0RiGV8.jpg",
+      "release_date": "2023-02-08",
+      "title": "Alibi.com 2",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 268
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4hAhZ66n5iasGtSYHTFg6oGdJk0.jpg",
+      "genre_ids": [
+        53,
+        27,
+        878
+      ],
+      "id": 660942,
+      "original_language": "no",
+      "original_title": "De uskyldige",
+      "overview": "Four children become friends during the summer holidays, and out of sight of the adults they discover they have hidden powers. While exploring their newfound abilities in the nearby forests and playgrounds, their innocent play takes a dark turn and strange things begin to happen.",
+      "popularity": 23.242,
+      "poster_path": "/dqvkxOLmnHgDOqZlT7GgMWEQViR.jpg",
+      "release_date": "2021-09-03",
+      "title": "The Innocents",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 454
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        18
+      ],
+      "id": 1182452,
+      "original_language": "es",
+      "original_title": "Olivia",
+      "overview": "Olivia, a transsexual girl, prepares her bags to go to town on the eve of the festival of San Juan. Through an intimate conversation with her mother, she will question the doubts that torment her about her decision to meet her friends from her beach again, being a girl for the first time.",
+      "popularity": 16.545,
+      "poster_path": "/kC80UZlkZTXt89EpUgSqVvJwTki.jpg",
+      "release_date": "2023-10-09",
+      "title": "Olivia",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/734OpJqPOVfI35yMGvPcieBI03g.jpg",
+      "genre_ids": [
+        53,
+        27
+      ],
+      "id": 1014840,
+      "original_language": "tl",
+      "original_title": "Bula",
+      "overview": "A woman working in a laundry shop uses her clients' clothes to satisfy her sexual fantasies. When she meets a hot police officer, she wants to have him no matter what it takes.",
+      "popularity": 25.501,
+      "poster_path": "/Q71kmkvWYF6Zclq1Ie5R7nm75m.jpg",
+      "release_date": "2023-09-26",
+      "title": "Bula",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/A8gwQ3YpAvXPT0MKLePkCT4AR7I.jpg",
+      "genre_ids": [
+        80,
+        18,
+        28
+      ],
+      "id": 567610,
+      "original_language": "en",
+      "original_title": "American Outlaws",
+      "overview": "Facing the possibility of prison - and in search of an idealized freedom - 3 siblings take matters in to their own hands with a cross country crime spree of epic proportions.",
+      "popularity": 22.31,
+      "poster_path": "/9E8QM7zsuKWEvKT4WMf13zYCxFV.jpg",
+      "release_date": "2023-09-15",
+      "title": "American Outlaws",
+      "video": false,
+      "vote_average": 5.5,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cofs7Y72FkRjALbOOOz8q7Uty6h.jpg",
+      "genre_ids": [
+        18,
+        53
+      ],
+      "id": 944952,
+      "original_language": "en",
+      "original_title": "The Royal Hotel",
+      "overview": "After running out of money while backpacking in a tiny, male-dominated town in the Australian outback, two friends resort to a working holiday at the Royal Hotel. When the locals behavior starts crossing the line, the girls find themselves trapped in an unnerving situation that grows rapidly out of their control.",
+      "popularity": 22.303,
+      "poster_path": "/oJwb2PV1LGxDp6Q3lynrjADxOIv.jpg",
+      "release_date": "2023-10-06",
+      "title": "The Royal Hotel",
+      "video": false,
+      "vote_average": 4,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 1179405,
+      "original_language": "fr",
+      "original_title": "Ils s'aiment",
+      "overview": "Iris and Maxence are a broken couple, fighting to love each other, trying to free themselves from their ideals, their fears, their profound vulnerability. But in this universal story, the line between reality and fiction gets blurred.",
+      "popularity": 17.74,
+      "poster_path": "/3DI7ydh7Z7BCVPm6GEAj8tizvnl.jpg",
+      "release_date": "2023-10-09",
+      "title": "Eternal Love",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/o7eWnlIgPkCbBBIYlGIiQLTvJpI.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        14
+      ],
+      "id": 947507,
+      "original_language": "no",
+      "original_title": "Helt Super",
+      "overview": "Eleven year old gaming enthusiast Hedvig finds her life turned upside down when she must step into the shoes of her father, who is the town’s secret superhero, sooner than expected. Little does she know, this will lead her on a journey of self-discovery through which she will uncover her inner hero, despite a lack of super strength, speed or coordination.",
+      "popularity": 31.682,
+      "poster_path": "/iZxqMQTIQ6HYOzyeiDxYYtyj4H7.jpg",
+      "release_date": "2022-09-30",
+      "title": "Just Super",
+      "video": false,
+      "vote_average": 5.9,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/cUHxmWfkp6se0Rt10Kr86bMCYDE.jpg",
+      "genre_ids": [
+        35,
+        18,
+        36
+      ],
+      "id": 1016084,
+      "original_language": "en",
+      "original_title": "BlackBerry",
+      "overview": "Two mismatched entrepreneurs – egghead innovator Mike Lazaridis and cut-throat businessman Jim Balsillie – joined forces in an endeavour that was to become a worldwide hit in little more than a decade. The story of the meteoric rise and catastrophic demise of the world's first smartphone.",
+      "popularity": 31.578,
+      "poster_path": "/neV35lK7em4rIY9QIoH1cruErPA.jpg",
+      "release_date": "2023-02-13",
+      "title": "BlackBerry",
+      "video": false,
+      "vote_average": 7.2,
+      "vote_count": 188
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/ltbheDd6ifdfWIZCSFwhpoJZeCS.jpg",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "id": 1030009,
+      "original_language": "da",
+      "original_title": "Kysset",
+      "overview": "A romantic drama set in Denmark in 1913, the story follows Anton, a noble and conscientious young man whose top priority is to complete his training as a cavalry officer. During a training session, he orders his platoon to help Baron von Løvenskjold and finds himself invited to a ball at the castle, where he meets the baron’s beautiful daughter Edith who has been in an accident and ended up in a wheelchair.",
+      "popularity": 20.538,
+      "poster_path": "/89ocpTcy0XT7kbeU7xviP7mH9Pq.jpg",
+      "release_date": "2022-10-15",
+      "title": "The Kiss",
+      "video": false,
+      "vote_average": 6.5,
+      "vote_count": 12
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9fd2ER66g0X5CHOuklLpLxaanvU.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 865585,
+      "original_language": "es",
+      "original_title": "La hija de todas las rabias",
+      "overview": "Nicaragua, today. Eleven-year-old María lives with her mother Lilibeth on the edge of an immense rubbish dump. Their future depends on selling a litter of purebred puppies to a local gang member. When the deal falls through, Lilibeth has to move to the outskirts of the city and leave María to work at a recycling factory. The days go by with no sign of her mother's return. María feels abandoned, confused and angry. One night she meets Tadeo, a kind and romantic boy determined to help her find her mother.",
+      "popularity": 23.193,
+      "poster_path": "/vq4hHRhTPcK3Bgew5ZQ9CFBUgMU.jpg",
+      "release_date": "2022-06-02",
+      "title": "Daughter of Rage",
+      "video": false,
+      "vote_average": 4.3,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/9JLl9UYkcWbkLWWHtzuVB6fc9Qr.jpg",
+      "genre_ids": [
+        28,
+        18,
+        53
+      ],
+      "id": 623511,
+      "original_language": "no",
+      "original_title": "Nordsjøen",
+      "overview": "An oil platform dramatically goes down on the Norwegian coast, and researchers try to find out what happened when they realize this is just the start of something even more serious.",
+      "popularity": 20.342,
+      "poster_path": "/1bB7uV5ljDWKG2m5Z4cgWwDMAeY.jpg",
+      "release_date": "2021-10-29",
+      "title": "The Burning Sea",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 189
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/akmMZoh4QN2INFwgDiHLo33rFVv.jpg",
+      "genre_ids": [
+        18,
+        27,
+        53
+      ],
+      "id": 833339,
+      "original_language": "da",
+      "original_title": "Speak No Evil",
+      "overview": "A Danish family visits a Dutch family they met on a holiday. What was supposed to be an idyllic weekend slowly starts unraveling as the Danes try to stay polite in the face of unpleasantness.",
+      "popularity": 23.264,
+      "poster_path": "/ng4lnPnTK43dOWT3dGvOuIiLJKT.jpg",
+      "release_date": "2022-03-17",
+      "title": "Speak No Evil",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 392
     }
   ],
   "total_pages": 113,

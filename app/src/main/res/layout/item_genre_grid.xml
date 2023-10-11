@@ -31,7 +31,8 @@
             tools:text="Action"
             android:layout_marginVertical="12dp"
             style="@style/MaterialTextView"
-            android:textSize="16sp"
+            android:textSize="14sp"
+            android:maxLines="2"
             android:gravity="center_horizontal"/>
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>

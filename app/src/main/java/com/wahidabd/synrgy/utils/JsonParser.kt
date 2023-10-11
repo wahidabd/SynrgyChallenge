@@ -4,6 +4,7 @@ import android.content.Context
 import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.domain.Genre
 import com.wahidabd.synrgy.domain.Movie
+import org.json.JSONArray
 import org.json.JSONObject
 
 
@@ -23,19 +24,13 @@ object JsonParser {
         try {
             val jsonObject = JSONObject(json)
             val movies = jsonObject.getJSONArray("results")
-            val genreIds = mutableListOf<Long>()
 
             for (i in 0 until movies.length()) {
                 val jsonMovie = movies.getJSONObject(i)
                 val id = jsonMovie.getLong("id")
                 val title = jsonMovie.getString("title")
                 val posterPath = jsonMovie.getString("poster_path")
-
-                val genres = jsonMovie.getJSONArray("genres_ids")
-                for (j in 0 until genres.length()) {
-                    val genre = genres.getLong(i)
-                    genreIds.add(genre)
-                }
+                val genreIds = jsonArrayToList(jsonMovie.getJSONArray("genre_ids"))
 
                 val movie = Movie(
                     id = id,
@@ -51,6 +46,14 @@ object JsonParser {
         }
 
         return result.filter { movie -> movie.genre_ids[0] == id }
+    }
+
+    private fun jsonArrayToList(jsonArray: JSONArray): List<Long> {
+        val list = mutableListOf<Long>()
+        for (i in 0 until jsonArray.length()) {
+            list.add(jsonArray.getLong(i))
+        }
+        return list
     }
 
     fun getAllGenres(context: Context): List<Genre>{

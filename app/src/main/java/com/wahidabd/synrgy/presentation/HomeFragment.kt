@@ -48,6 +48,10 @@ class HomeFragment : Fragment() {
             handleTypeList(if (isGrid) GenreType.GRID else GenreType.LIST)
             initRecyclerView(if (isGrid) GenreType.GRID else GenreType.LIST)
         }
+
+        genreAdapter.setOnClickListener { id ->
+            DetailMovieActivity.start(requireActivity(), id)
+        }
     }
 
     private fun initData() {
