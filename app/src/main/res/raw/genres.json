@@ -1,0 +1,99 @@
+{
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action",
+      "image": "https://www.uphe.com/sites/default/files/styles/scale__344w_/public/2023/07/FastX_Poster%20ARt.jpg?itok=rlQoYVBu"
+    },
+    {
+      "id": 12,
+      "name": "Adventure",
+      "image": "https://unitingartists.org/wp-content/uploads/2020/06/Adventure-Genre-800x445.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Animation",
+      "image": "https://parade.com/.image/t_share/MTkwNTc4NzcxNjE5NjIwNzMy/disney-pixar.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Comedy",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/home-alone-1585876454.jpg"
+    },
+    {
+      "id": 80,
+      "name": "Crime",
+      "image": "https://i.insider.com/5b9c0ca789c8a158528b5ce5?width=700"
+    },
+    {
+      "id": 99,
+      "name": "Documentary",
+      "image": "https://www.jsonline.com/gcdn/presto/2022/09/18/PMJS/e6f079f2-1fef-4fb1-9dfc-1c07b3cc76b4-NG_TheFlagmakers_KeyArt_Vertical.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Drama",
+      "image": "https://publish.purewow.net/wp-content/uploads/sites/2/2020/12/the-best-korean-drama-films.jpg"
+    },
+    {
+      "id": 10751,
+      "name": "Family",
+      "image": "https://images.moviesanywhere.com/6e098c413e2a802c655b52439e888465/362856d4-039b-4a13-ae20-ef8d57735ce8.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy",
+      "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/06/best-fantasy-movies.jpg"
+    },
+    {
+      "id": 36,
+      "name": "History",
+      "image": "https://www.boredpanda.com/blog/wp-content/uploads/2022/04/historical-movies-1-625ff6a57458a__700.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Horror",
+      "image": "https://m.media-amazon.com/images/M/MV5BMGEzZjdjMGQtZmYzZC00N2I4LThiY2QtNWY5ZmQ3M2ExZmM4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 10402,
+      "name": "Music",
+      "image": "https://media.vanityfair.com/photos/60217c3011f44891fbbc622c/master/w_2560%2Cc_limit/music-review-a.jpg"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery",
+      "image": "https://media.timeout.com/images/105954675/750/422/image.jpg"
+    },
+    {
+      "id": 10749,
+      "name": "Romance",
+      "image": "https://www.brides.com/thmb/VBUDEGSgR4CzSMRT0bk6ygvGO-k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/The-Fault-in-Our-Stars-2014-673a1c4c94a14160a128372ae3302cf0.jpg"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction",
+      "image": "https://cdn.moviefone.com/image-assets/986210/r4BLXXsaavI3tgSNDd4upxsxc5O.jpg?d=360x540&q=60"
+    },
+    {
+      "id": 10770,
+      "name": "TV Movie",
+      "image": "https://cdn1-production-images-kly.akamaized.net/uQi-rRvAFxkFl6TchCNPnT_q4RM=/800x1066/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3039067/original/013616000_1580629048-The_Lego_Movie.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Thriller",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDQ5MmJhODgtMjMzYi00Nzc3LTk5MDUtYTkwMTkzM2RlNjEzXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+    },
+    {
+      "id": 10752,
+      "name": "War",
+      "image": "https://media.timeout.com/images/103492941/750/562/image.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Western",
+      "image": "https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/02/22/15/western-once-upon-a-time-in-the-west-.jpg"
+    }
+  ]
+}

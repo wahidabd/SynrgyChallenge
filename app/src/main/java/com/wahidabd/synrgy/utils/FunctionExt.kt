@@ -3,6 +3,9 @@ package com.wahidabd.synrgy.utils
 import android.text.Editable
 import android.text.TextWatcher
 import android.widget.EditText
+import android.widget.ImageView
+import com.bumptech.glide.Glide
+import com.wahidabd.synrgy.R
 import java.text.NumberFormat
 import java.util.Currency
 import java.util.Locale
@@ -13,8 +16,8 @@ import java.util.Locale
  * Github github.com/wahidabd.
  */
 
+val imageUrl = "https://image.tmdb.org/t/p/w500"
 val localeIndonesia = Locale("in", "ID")
-
 
 fun EditText.toCurrencyTextWatcher() {
     this.addTextChangedListener(object : TextWatcher {
@@ -67,3 +70,9 @@ fun String.getPercentage(): Double {
         else -> 0.0
     }
 }
+
+fun ImageView.loadImageUrl(url: String) =
+    Glide.with(this)
+        .load(url)
+        .placeholder(R.drawable.img_logo)
+        .into(this)

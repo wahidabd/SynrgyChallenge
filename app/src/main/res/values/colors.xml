@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <color name="colorPrimary">#0055B8</color>
+    <color name="colorPrimary">#0d253f</color>
+    <color name="colorPrimaryOpacity">#CC0D253F</color>
+    <color name="colorPrimaryDark">#01b4e4</color>
     <color name="colorPrimary70">#700055B8</color>
     <color name="colorPrimarySoft">#f1fafd</color>
     <color name="colorPrimaryLight">#E5EEF8</color>
@@ -8,6 +10,7 @@
     <color name="colorAccent50">#5043B54A</color>
     <color name="colorAccentSoft">#ECF7EC</color>
     <color name="colorAccentLight">#EDF8ED</color>
+
 
     <color name="colorDarkGrey">#8A8A8A</color>
     <color name="colorWhiteGrey">#ACACAC</color>

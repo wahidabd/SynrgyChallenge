@@ -6,110 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorWhite"
-    tools:context=".MainActivity">
+    tools:context=".presentation.MainActivity">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/img_logo" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/tilInput"
-        style="@style/TextInputLayoutStyle"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="20dp"
-        android:hint="@string/cost_of_service">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edtInput"
-            style="@style/TextInputEdittextStyle"
-            android:inputType="numberDecimal" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textview.MaterialTextView
-        style="@style/MaterialTextView"
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/main_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/how_was_the_service" />
-
-    <RadioGroup
-        android:id="@+id/rg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="4dp">
-
-        <RadioButton
-            android:id="@+id/rb1"
-            style="@style/RadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/amazing_service" />
-
-        <RadioButton
-            android:id="@+id/rb2"
-            style="@style/RadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/good_service" />
-
-        <RadioButton
-            android:id="@+id/rb3"
-            style="@style/RadioButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/ok_service" />
-    </RadioGroup>
-
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="12dp">
-
-        <com.google.android.material.textview.MaterialTextView
-            style="@style/MaterialTextView"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/round_up_tip" />
-
-        <com.google.android.material.switchmaterial.SwitchMaterial
-            android:id="@+id/switchButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:thumbTint="@color/button_tint" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnCalculate"
-        style="@style/MaterialButton"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="6dp"
-        android:text="@string/calculate" />
-
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="16dp"
-        android:layout_marginTop="6dp">
-
-        <com.google.android.material.textview.MaterialTextView
-            style="@style/MaterialTextView"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/tip_amount" />
-
-        <com.google.android.material.textview.MaterialTextView
-            android:id="@+id/tvResult"
-            style="@style/MaterialTextView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:text="Rp 12.000" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
+        android:layout_height="match_parent"
+        app:navGraph="@navigation/main_nav"
+        android:name="androidx.navigation.fragment.NavHostFragment"/>
 </androidx.appcompat.widget.LinearLayoutCompat>
