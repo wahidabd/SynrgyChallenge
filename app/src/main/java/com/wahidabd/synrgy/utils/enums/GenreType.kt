@@ -1,4 +1,4 @@
-package com.wahidabd.synrgy.utils
+package com.wahidabd.synrgy.utils.enums
 
 
 /**

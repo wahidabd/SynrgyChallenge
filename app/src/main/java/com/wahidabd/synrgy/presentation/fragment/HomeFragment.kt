@@ -1,4 +1,4 @@
-package com.wahidabd.synrgy.presentation
+package com.wahidabd.synrgy.presentation.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,9 +11,13 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.databinding.FragmentHomeBinding
+import com.wahidabd.synrgy.presentation.DetailMovieActivity
 import com.wahidabd.synrgy.presentation.adapter.GenreAdapter
-import com.wahidabd.synrgy.utils.GenreType
 import com.wahidabd.synrgy.utils.JsonParser
+import com.wahidabd.synrgy.utils.enums.GenreType
+import com.wahidabd.synrgy.utils.enums.NavType
+import com.wahidabd.synrgy.utils.navigateArgs
+import com.wahidabd.synrgy.utils.showToast
 
 
 class HomeFragment : Fragment() {
@@ -25,6 +29,7 @@ class HomeFragment : Fragment() {
 
     private val genreAdapter by lazy { GenreAdapter() }
     private var isGrid = false
+    private var isIntent = false
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -37,9 +42,10 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        initRecyclerView(GenreType.LIST)
+        initRecyclerView()
         initData()
         initListener()
+        handleSelectedMode()
     }
 
     private fun initListener() = with(binding) {
@@ -49,8 +55,14 @@ class HomeFragment : Fragment() {
             initRecyclerView(if (isGrid) GenreType.GRID else GenreType.LIST)
         }
 
-        genreAdapter.setOnClickListener { id ->
-            DetailMovieActivity.start(requireActivity(), id)
+        cardMode.setOnClickListener {
+            isIntent = !isIntent
+            handleSelectedMode(if (isIntent) NavType.INTENT else NavType.ARGS)
+        }
+
+        genreAdapter.setOnClickListener { genre ->
+            if (isIntent) DetailMovieActivity.start(requireActivity(), genre)
+            else navigateArgs(HomeFragmentDirections.actionHomeFragmentToDetailMovieFragment(genre))
         }
     }
 
@@ -58,7 +70,7 @@ class HomeFragment : Fragment() {
         genreAdapter.setList(JsonParser.getAllGenres(requireContext()))
     }
 
-    private fun initRecyclerView(type: GenreType) {
+    private fun initRecyclerView(type: GenreType = GenreType.LIST) {
 
         val manager = when (type) {
             GenreType.LIST -> LinearLayoutManager(requireContext())
@@ -89,6 +101,13 @@ class HomeFragment : Fragment() {
                     R.drawable.ic_filter_list
                 )
             )
+        }
+    }
+
+    private fun handleSelectedMode(mode: NavType = NavType.ARGS) = with(binding) {
+        when(mode){
+            NavType.INTENT -> tvMode.text = NavType.INTENT.label
+            NavType.ARGS -> tvMode.text = NavType.ARGS.label
         }
     }
 

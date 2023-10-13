@@ -8,7 +8,7 @@ import androidx.viewbinding.ViewBinding
 import com.wahidabd.synrgy.databinding.ItemGenreGridBinding
 import com.wahidabd.synrgy.databinding.ItemGenreRectangleBinding
 import com.wahidabd.synrgy.domain.Genre
-import com.wahidabd.synrgy.utils.GenreType
+import com.wahidabd.synrgy.utils.enums.GenreType
 import com.wahidabd.synrgy.utils.loadImageUrl
 
 
@@ -30,8 +30,8 @@ class GenreAdapter() : RecyclerView.Adapter<GenreAdapter.GenreViewHolder>() {
         notifyDataSetChanged()
     }
 
-    private var listener: ((Long) -> Unit)? = null
-    fun setOnClickListener(listener: (Long) -> Unit) {
+    private var listener: ((Genre) -> Unit)? = null
+    fun setOnClickListener(listener: (Genre) -> Unit) {
         this.listener = listener
     }
 
@@ -77,19 +77,19 @@ class GenreAdapter() : RecyclerView.Adapter<GenreAdapter.GenreViewHolder>() {
 
     inner class ListViewHolder(private val binding: ItemGenreRectangleBinding) :
         GenreViewHolder(binding) {
-        fun bind(data: Genre, listener: ((Long) -> Unit)? = null) = with(binding) {
+        fun bind(data: Genre, listener: ((Genre) -> Unit)? = null) = with(binding) {
             tvGenre.text = data.name
-            tvGenre.setOnClickListener { listener?.invoke(data.id) }
+            tvGenre.setOnClickListener { listener?.invoke(data) }
         }
     }
 
     inner class GridViewHolder(private val binding: ItemGenreGridBinding) :
         GenreViewHolder(binding) {
-        fun bind(data: Genre, listener: ((Long) -> Unit)? = null) = with(binding) {
+        fun bind(data: Genre, listener: ((Genre) -> Unit)? = null) = with(binding) {
             tvName.text = data.name
             image.loadImageUrl(data.image)
 
-            card.setOnClickListener { listener?.invoke(data.id) }
+            card.setOnClickListener { listener?.invoke(data) }
         }
     }
 }

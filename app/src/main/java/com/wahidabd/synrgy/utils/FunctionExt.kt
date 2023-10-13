@@ -4,10 +4,13 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.Toast
+import androidx.fragment.app.Fragment
+import androidx.navigation.NavDirections
+import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
 import com.wahidabd.synrgy.R
 import java.text.NumberFormat
-import java.util.Currency
 import java.util.Locale
 
 
@@ -76,3 +79,9 @@ fun ImageView.loadImageUrl(url: String) =
         .load(url)
         .placeholder(R.drawable.img_logo)
         .into(this)
+
+fun Fragment.showToast(message: String) =
+    Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()
+
+fun Fragment.navigateArgs(nav: NavDirections) =
+    findNavController().navigate(nav)

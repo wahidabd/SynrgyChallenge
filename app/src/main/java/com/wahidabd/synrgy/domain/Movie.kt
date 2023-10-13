@@ -1,5 +1,8 @@
 package com.wahidabd.synrgy.domain
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
 
 /**
  * Created by Wahid on 10/11/2023.
@@ -7,9 +10,10 @@ package com.wahidabd.synrgy.domain
  */
 
 
+@Parcelize
 data class Movie(
     val id: Long,
     val poster_path: String,
     val title: String,
     val genre_ids: List<Long>
-)
+): Parcelable
