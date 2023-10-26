@@ -1,4 +1,4 @@
-package com.wahidabd.synrgy.domain
+package com.wahidabd.synrgy.domain.movie
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

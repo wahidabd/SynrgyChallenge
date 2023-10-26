@@ -1,21 +1,24 @@
-package com.wahidabd.synrgy.presentation.fragment
+package com.wahidabd.synrgy.presentation.detail
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.databinding.FragmentDetailMovieBinding
-import com.wahidabd.synrgy.presentation.adapter.MovieAdapter
-import com.wahidabd.synrgy.utils.JsonParser
+import com.wahidabd.synrgy.presentation.home.MovieViewModel
+import com.wahidabd.synrgy.presentation.home.adapter.MovieAdapter
 
 
 class DetailMovieFragment : Fragment() {
+
+    private val viewModel: MovieViewModel by viewModels()
 
     private val movieAdapter by lazy { MovieAdapter() }
     private val args: DetailMovieFragmentArgs by navArgs()
@@ -36,15 +39,24 @@ class DetailMovieFragment : Fragment() {
 
         initView()
         initListener()
-        Log.d("Fragment", "This is a fragment")
+        initProcess()
+        initObservables()
+    }
+
+    private fun initProcess() {
+        val json = requireContext().resources.openRawResource(R.raw.movies).bufferedReader().use { it.readText() }
+        viewModel.getAllMovie(json, args.genre.id)
+    }
+
+    private fun initObservables() {
+        viewModel.movies.observe(viewLifecycleOwner) { movies ->
+            movieAdapter.setList(movies)
+        }
     }
 
     private fun initView() = with(binding) {
         toolbar.title = args.genre.name
         rvMovie.adapter = movieAdapter
-
-        val data = JsonParser.getListMovie(requireContext(), args.genre.id ?: 0)
-        movieAdapter.setList(data)
     }
 
     private fun initListener() {

@@ -1,9 +1,7 @@
 package com.wahidabd.synrgy.utils
 
-import android.content.Context
-import com.wahidabd.synrgy.R
-import com.wahidabd.synrgy.domain.Genre
-import com.wahidabd.synrgy.domain.Movie
+import com.wahidabd.synrgy.domain.movie.Genre
+import com.wahidabd.synrgy.domain.movie.Movie
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -16,10 +14,8 @@ import org.json.JSONObject
 
 object JsonParser {
 
-    fun getListMovie(context: Context, id: Long): List<Movie> {
+    fun getListMovie(json: String, id: Long): List<Movie> {
         val result = mutableListOf<Movie>()
-        val json =
-            context.resources.openRawResource(R.raw.movies).bufferedReader().use { it.readText() }
 
         try {
             val jsonObject = JSONObject(json)
@@ -56,9 +52,8 @@ object JsonParser {
         return list
     }
 
-    fun getAllGenres(context: Context): List<Genre>{
+    fun getAllGenres(json: String): List<Genre>{
         val result = mutableListOf<Genre>()
-        val json = context.resources.openRawResource(R.raw.genres).bufferedReader().use { it.readText() }
 
         try {
             val jsonObject = JSONObject(json)

@@ -1,11 +1,11 @@
-package com.wahidabd.synrgy.presentation.adapter
+package com.wahidabd.synrgy.presentation.home.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.wahidabd.synrgy.databinding.ItemGenreGridBinding
-import com.wahidabd.synrgy.domain.Movie
+import com.wahidabd.synrgy.domain.movie.Movie
 import com.wahidabd.synrgy.utils.loadImageUrl
 
 

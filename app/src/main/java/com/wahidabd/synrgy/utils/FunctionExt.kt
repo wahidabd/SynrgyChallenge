@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
+import com.google.android.material.textfield.TextInputLayout
 import com.wahidabd.synrgy.R
 import java.text.NumberFormat
 import java.util.Locale
@@ -85,3 +86,12 @@ fun Fragment.showToast(message: String) =
 
 fun Fragment.navigateArgs(nav: NavDirections) =
     findNavController().navigate(nav)
+
+fun Fragment.navigateUp() =
+    findNavController().navigateUp()
+
+fun TextInputLayout.textTrim() =
+    this.editText?.text.toString().trim()
+
+fun Fragment.toast(message: String) =
+    Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()

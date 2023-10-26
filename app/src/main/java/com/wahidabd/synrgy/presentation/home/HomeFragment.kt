@@ -1,4 +1,4 @@
-package com.wahidabd.synrgy.presentation.fragment
+package com.wahidabd.synrgy.presentation.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,18 +6,17 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.databinding.FragmentHomeBinding
-import com.wahidabd.synrgy.presentation.DetailMovieActivity
-import com.wahidabd.synrgy.presentation.adapter.GenreAdapter
-import com.wahidabd.synrgy.utils.JsonParser
+import com.wahidabd.synrgy.presentation.detail.DetailMovieActivity
+import com.wahidabd.synrgy.presentation.home.adapter.GenreAdapter
 import com.wahidabd.synrgy.utils.enums.GenreType
 import com.wahidabd.synrgy.utils.enums.NavType
 import com.wahidabd.synrgy.utils.navigateArgs
-import com.wahidabd.synrgy.utils.showToast
 
 
 class HomeFragment : Fragment() {
@@ -27,6 +26,7 @@ class HomeFragment : Fragment() {
     private val binding get() = _binding!!
 
 
+    private val viewModel: MovieViewModel by viewModels()
     private val genreAdapter by lazy { GenreAdapter() }
     private var isGrid = false
     private var isIntent = false
@@ -43,8 +43,9 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         initRecyclerView()
-        initData()
         initListener()
+        initProcess()
+        initObservables()
         handleSelectedMode()
     }
 
@@ -66,12 +67,18 @@ class HomeFragment : Fragment() {
         }
     }
 
-    private fun initData() {
-        genreAdapter.setList(JsonParser.getAllGenres(requireContext()))
+    private fun initProcess() {
+        val json = requireContext().resources.openRawResource(R.raw.genres).bufferedReader().use { it.readText() }
+        viewModel.getAllGenre(json)
+    }
+
+    private fun initObservables() {
+        viewModel.genres.observe(viewLifecycleOwner){genres ->
+            genreAdapter.setList(genres)
+        }
     }
 
     private fun initRecyclerView(type: GenreType = GenreType.LIST) {
-
         val manager = when (type) {
             GenreType.LIST -> LinearLayoutManager(requireContext())
             GenreType.GRID -> GridLayoutManager(requireContext(), 2)
@@ -105,10 +112,16 @@ class HomeFragment : Fragment() {
     }
 
     private fun handleSelectedMode(mode: NavType = NavType.ARGS) = with(binding) {
-        when(mode){
+        when (mode) {
             NavType.INTENT -> tvMode.text = NavType.INTENT.label
             NavType.ARGS -> tvMode.text = NavType.ARGS.label
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        handleTypeList(if (isGrid) GenreType.GRID else GenreType.LIST)
+        initRecyclerView(if (isGrid) GenreType.GRID else GenreType.LIST)
     }
 
 }

@@ -1,4 +1,4 @@
-package com.wahidabd.synrgy.presentation.adapter
+package com.wahidabd.synrgy.presentation.home.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding
 import com.wahidabd.synrgy.databinding.ItemGenreGridBinding
 import com.wahidabd.synrgy.databinding.ItemGenreRectangleBinding
-import com.wahidabd.synrgy.domain.Genre
+import com.wahidabd.synrgy.domain.movie.Genre
 import com.wahidabd.synrgy.utils.enums.GenreType
 import com.wahidabd.synrgy.utils.loadImageUrl
 
