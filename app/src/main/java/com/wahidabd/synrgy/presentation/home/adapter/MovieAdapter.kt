@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.wahidabd.synrgy.databinding.ItemGenreGridBinding
+import com.wahidabd.synrgy.databinding.ItemMovieBinding
 import com.wahidabd.synrgy.domain.movie.Movie
 import com.wahidabd.synrgy.utils.loadImageUrl
 
@@ -27,13 +27,19 @@ class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
     }
 
     private var listener: ((Movie) -> Unit)? = null
+    private var commentListener: ((Movie) -> Unit)? = null
+
     fun setOnClickListener(listener: (Movie) -> Unit) {
         this.listener = listener
     }
 
+    fun setOnCommentClickListener(listener: (Movie) -> Unit){
+        this.commentListener = listener
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder =
         MovieViewHolder(
-            ItemGenreGridBinding.inflate(
+            ItemMovieBinding.inflate(
                 LayoutInflater.from(parent.context),
                 parent, false
             )
@@ -42,16 +48,23 @@ class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
     override fun getItemCount(): Int = list.size
 
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
-        holder.bind(list[position], listener)
+        holder.bind(list[position], listener, commentListener)
     }
 
-    inner class MovieViewHolder(private val binding: ItemGenreGridBinding) :
+    inner class MovieViewHolder(private val binding: ItemMovieBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(data: Movie, listener: ((Movie) -> Unit)? = null) = with(binding) {
+        fun bind(
+            data: Movie,
+            listener: ((Movie) -> Unit)? = null,
+            commentListener: ((Movie) -> Unit)? = null
+        ) = with(binding) {
             tvName.text = data.title
             image.loadImageUrl("https://image.tmdb.org/t/p/original${data.poster_path}")
 
-            card.setOnClickListener { listener?.invoke(data) }
+            image.setOnClickListener { listener?.invoke(data) }
+            imgComment.setOnClickListener {
+                commentListener?.invoke(data)
+            }
         }
     }
 }

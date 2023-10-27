@@ -3,6 +3,7 @@ package com.wahidabd.synrgy.presentation.detail
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,8 +13,10 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.databinding.FragmentDetailMovieBinding
+import com.wahidabd.synrgy.presentation.comment.CommentBottomSheetFragment
 import com.wahidabd.synrgy.presentation.home.MovieViewModel
 import com.wahidabd.synrgy.presentation.home.adapter.MovieAdapter
+import com.wahidabd.synrgy.utils.toast
 
 
 class DetailMovieFragment : Fragment() {
@@ -68,6 +71,13 @@ class DetailMovieFragment : Fragment() {
                 Uri.parse("https://www.google.com/search?q=${movie.title}")
             )
             startActivity(intent)
+        }
+
+        movieAdapter.setOnCommentClickListener { movie ->
+            CommentBottomSheetFragment.newInstance(movie.id)
+                .show(childFragmentManager, CommentBottomSheetFragment::class.java.name)
+
+            Log.d("DetailMovieFragment", "initListener: $movie")
         }
     }
 

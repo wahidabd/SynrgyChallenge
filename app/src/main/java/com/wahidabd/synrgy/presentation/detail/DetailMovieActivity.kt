@@ -4,11 +4,13 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.databinding.ActivityDetailMovieBinding
 import com.wahidabd.synrgy.domain.movie.Genre
+import com.wahidabd.synrgy.presentation.comment.CommentBottomSheetFragment
 import com.wahidabd.synrgy.presentation.home.MovieViewModel
 import com.wahidabd.synrgy.presentation.home.adapter.MovieAdapter
 
@@ -71,6 +73,13 @@ class DetailMovieActivity : AppCompatActivity() {
                 Uri.parse("https://www.google.com/search?q=${movie.title}")
             )
             startActivity(intent)
+        }
+
+        movieAdapter.setOnCommentClickListener { movie ->
+            CommentBottomSheetFragment.newInstance(movie.id)
+                .show(supportFragmentManager, CommentBottomSheetFragment::class.java.name)
+
+            Log.d("DetailMovieFragment", "initListener: $movie")
         }
     }
 }

@@ -3,6 +3,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("kotlin-parcelize")
     id("androidx.navigation.safeargs.kotlin")
+    id ("com.google.devtools.ksp") version "1.9.10-1.0.13"
 }
 
 android {
@@ -60,4 +61,9 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.7.4")
 
     implementation("io.insert-koin:koin-android:3.3.3")
+
+    // room
+    implementation("androidx.room:room-ktx:2.6.0")
+    implementation("androidx.room:room-runtime:2.6.0")
+    ksp("androidx.room:room-compiler:2.6.0")
 }

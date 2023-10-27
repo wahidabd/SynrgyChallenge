@@ -23,6 +23,8 @@ import java.util.Locale
 val imageUrl = "https://image.tmdb.org/t/p/w500"
 val localeIndonesia = Locale("in", "ID")
 
+fun currentMillis() = System.currentTimeMillis()
+
 fun EditText.toCurrencyTextWatcher() {
     this.addTextChangedListener(object : TextWatcher {
         override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {}

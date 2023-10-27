@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_rounded_top"
+    tools:context=".presentation.comment.CommentBottomSheetFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/MaterialTextView.Medium"
+            android:text="@string/comments"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_close"
+            app:tint="@color/colorWhite"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        app:dividerColor="@color/colorPaleGrey"
+        android:layout_below="@id/top_container"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_comment"
+        tools:itemCount="4"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_below="@id/divider"
+        android:clipToPadding="false"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@color/colorPrimary"
+        android:elevation="2dp"
+        android:layout_alignParentBottom="true">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edt_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Comment ..."
+            android:fontFamily="@font/poppins"
+            android:textSize="12sp"
+            android:padding="16dp"
+            android:textColorHint="@color/colorPaleGrey"
+            android:textColor="@color/colorWhite"
+            android:background="@null"
+            android:layout_marginEnd="12dp"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_send"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="4dp"
+            android:layout_marginEnd="12dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_share"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>

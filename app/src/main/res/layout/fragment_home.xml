@@ -55,9 +55,31 @@
                 android:id="@+id/img_type"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:tint="@color/colorPrimaryDark"
                 android:layout_gravity="center"
-                android:src="@drawable/ic_widgets"/>
+                android:src="@drawable/ic_widgets"
+                app:tint="@color/colorPrimaryDark" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <Space
+            android:layout_width="12dp"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_logout"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            app:cardCornerRadius="4dp"
+            app:strokeColor="@color/colorPrimaryDark"
+            app:strokeWidth="1dp"
+            android:background="?selectableItemBackground"
+            android:backgroundTint="@color/colorPrimary">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_logout"
+                app:tint="@color/colorPrimaryDark" />
         </com.google.android.material.card.MaterialCardView>
     </androidx.appcompat.widget.LinearLayoutCompat>
 

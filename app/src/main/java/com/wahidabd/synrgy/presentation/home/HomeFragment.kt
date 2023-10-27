@@ -14,9 +14,11 @@ import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.databinding.FragmentHomeBinding
 import com.wahidabd.synrgy.presentation.detail.DetailMovieActivity
 import com.wahidabd.synrgy.presentation.home.adapter.GenreAdapter
+import com.wahidabd.synrgy.utils.SharedPreferences
 import com.wahidabd.synrgy.utils.enums.GenreType
 import com.wahidabd.synrgy.utils.enums.NavType
 import com.wahidabd.synrgy.utils.navigateArgs
+import org.koin.android.ext.android.inject
 
 
 class HomeFragment : Fragment() {
@@ -25,6 +27,7 @@ class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
 
+    private val pref: SharedPreferences by inject()
 
     private val viewModel: MovieViewModel by viewModels()
     private val genreAdapter by lazy { GenreAdapter() }
@@ -64,6 +67,11 @@ class HomeFragment : Fragment() {
         genreAdapter.setOnClickListener { genre ->
             if (isIntent) DetailMovieActivity.start(requireActivity(), genre)
             else navigateArgs(HomeFragmentDirections.actionHomeFragmentToDetailMovieFragment(genre))
+        }
+
+        cardLogout.setOnClickListener {
+            pref.logout()
+            navigateArgs(HomeFragmentDirections.actionHomeFragmentToLoginFragment2())
         }
     }
 

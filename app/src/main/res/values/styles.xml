@@ -31,7 +31,7 @@
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="MaterialTextViewMedium" parent="MaterialTextView">
+    <style name="MaterialTextView.Medium">
         <item name="android:fontFamily">@font/poppins_medium</item>
     </style>
 
@@ -52,5 +52,15 @@
         <item name="android:textColor">@color/colorPrimary</item>
         <item name="backgroundTint">@color/colorWhite</item>
         <item name="cornerRadius">6dp</item>
+    </style>
+
+    <style name="BottomDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ModalDialogTheme</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateAlwaysVisible</item>
+    </style>
+
+    <style name="ModalDialogTheme" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_rounded_top</item>
     </style>
 </resources>

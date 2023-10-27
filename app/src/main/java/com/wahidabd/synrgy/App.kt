@@ -1,7 +1,9 @@
 package com.wahidabd.synrgy
 
 import android.app.Application
+import com.wahidabd.synrgy.di.appDatabase
 import com.wahidabd.synrgy.di.appModule
+import com.wahidabd.synrgy.di.commentModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -23,7 +25,9 @@ class App : Application() {
             androidLogger(Level.DEBUG)
             androidContext(this@App)
             modules(
-                appModule
+                appModule,
+                appDatabase,
+                commentModule
             )
         }
     }
