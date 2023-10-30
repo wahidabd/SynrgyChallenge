@@ -2,11 +2,19 @@
 
 ```kotlin
 data class Student(
-    val name: String,
-    val age: Int,
-    val image: String,
+    @SerializedName("name")
+    val nama: String,
+    val age: Int? = 0,
+    @SerializedName("image")
+    val picture: String,
     val course: String,
     val createdAt: String
+)
+```
+
+```kotlin
+data class StudentList(
+    val students: List<Student>
 )
 ```
 
@@ -15,7 +23,7 @@ data class Student(
   "students": [
     {
       "name": "Abd. Wahid",
-      "age": 18,
+      "age": null,
       "image": "http://www.listercarterhomes.com/wp-content/uploads/2013/11/dummy-image-square.jpg",
       "course": "android",
       "createdAt": "2023-09-11T09:00:00.000Z"
