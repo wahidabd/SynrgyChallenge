@@ -90,6 +90,5 @@ data class Student(
 ### 2. Tanpa melihat slide ataupun referensi lain sebutkan maksud dari error code berikut: 100, 200, 300, 400, 500, dan 418
 
 - 200 OK
-- 300 Multiple Choices
 - 400 Bad Request
 - 500 Internal Server Error
