@@ -1,6 +1,5 @@
 package com.wahidabd.synrgy.data.local
 
-import com.wahidabd.synrgy.data.AppDatabase
 import com.wahidabd.synrgy.data.local.model.CommentEntity
 import kotlinx.coroutines.flow.Flow
 

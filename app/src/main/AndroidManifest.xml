@@ -16,7 +16,16 @@
         android:theme="@style/Theme.Synrgy"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.MainActivity"
+            android:name=".presentation.main.SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.auth.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,10 +33,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".presentation.detail.DetailMovieActivity"
-            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

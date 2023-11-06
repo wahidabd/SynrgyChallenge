@@ -3,7 +3,9 @@ package com.wahidabd.synrgy
 import android.app.Application
 import com.wahidabd.synrgy.di.appDatabase
 import com.wahidabd.synrgy.di.appModule
-import com.wahidabd.synrgy.di.commentModule
+import com.wahidabd.synrgy.di.features.animeModule
+import com.wahidabd.synrgy.di.features.authModule
+import com.wahidabd.synrgy.di.features.commentModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
@@ -27,6 +29,8 @@ class App : Application() {
             modules(
                 appModule,
                 appDatabase,
+                authModule,
+                animeModule,
                 commentModule
             )
         }

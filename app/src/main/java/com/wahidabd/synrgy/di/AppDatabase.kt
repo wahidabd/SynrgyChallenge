@@ -1,6 +1,7 @@
 package com.wahidabd.synrgy.di
 
-import com.wahidabd.synrgy.data.AppDatabase
+import com.wahidabd.synrgy.data.local.AppDatabase
+import com.wahidabd.synrgy.utils.AuthDataStore
 import org.koin.dsl.module
 
 
@@ -12,4 +13,5 @@ import org.koin.dsl.module
 
 val appDatabase = module {
     single { AppDatabase.getDatabase(get()) }
+    single { AuthDataStore.getInstance(get()) }
 }

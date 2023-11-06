@@ -1,6 +1,6 @@
 package com.wahidabd.synrgy.di
 
-import com.wahidabd.synrgy.utils.SharedPreferences
+import com.wahidabd.synrgy.common.ktorHttpClient
 import org.koin.dsl.module
 
 
@@ -11,5 +11,5 @@ import org.koin.dsl.module
 
 
 val appModule = module {
-    single { SharedPreferences(get())}
+    single { ktorHttpClient }
 }

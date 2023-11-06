@@ -6,14 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorPrimary"
-    tools:context=".presentation.MainActivity">
+    tools:context=".presentation.main.MainActivity">
 
-
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/main_container"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_anime"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:navGraph="@navigation/main_nav"
-        app:defaultNavHost="true"
-        android:name="androidx.navigation.fragment.NavHostFragment"/>
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_anime"
+        app:spanCount="2"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:itemCount="2"/>
+
 </androidx.appcompat.widget.LinearLayoutCompat>

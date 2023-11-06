@@ -5,6 +5,7 @@ import android.text.TextWatcher
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
@@ -97,3 +98,5 @@ fun TextInputLayout.textTrim() =
 
 fun Fragment.toast(message: String) =
     Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()
+
+fun AppCompatActivity.onBackPress() = onBackPressedDispatcher.onBackPressed()
