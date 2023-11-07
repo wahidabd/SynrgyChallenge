@@ -2,6 +2,7 @@ package com.wahidabd.synrgy.utils
 
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Patterns
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
@@ -23,6 +24,7 @@ import java.util.Locale
 
 val imageUrl = "https://image.tmdb.org/t/p/w500"
 val localeIndonesia = Locale("in", "ID")
+private const val emailRegex = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\\$"
 
 fun currentMillis() = System.currentTimeMillis()
 
@@ -69,29 +71,15 @@ fun Double.formatCurrencyRp(): String {
     return format.format(this)
 }
 
-fun String.getPercentage(): Double {
-    return when {
-        this.contains("20") -> 0.20
-        this.contains("18") -> 0.18
-        this.contains("15") -> 0.15
-        else -> 0.0
-    }
-}
-
 fun ImageView.loadImageUrl(url: String) =
     Glide.with(this)
         .load(url)
         .placeholder(R.drawable.img_logo)
         .into(this)
 
-fun Fragment.showToast(message: String) =
-    Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()
+fun AppCompatActivity.toast(message: String) =
+    Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
 
-fun Fragment.navigateArgs(nav: NavDirections) =
-    findNavController().navigate(nav)
-
-fun Fragment.navigateUp() =
-    findNavController().navigateUp()
 
 fun TextInputLayout.textTrim() =
     this.editText?.text.toString().trim()
@@ -100,3 +88,6 @@ fun Fragment.toast(message: String) =
     Toast.makeText(requireContext(), message, Toast.LENGTH_SHORT).show()
 
 fun AppCompatActivity.onBackPress() = onBackPressedDispatcher.onBackPressed()
+
+fun String.isValidEmail(): Boolean =
+    Patterns.EMAIL_ADDRESS.matcher(this).matches()

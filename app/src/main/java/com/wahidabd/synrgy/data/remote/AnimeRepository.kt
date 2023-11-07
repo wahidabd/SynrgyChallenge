@@ -1,10 +1,8 @@
 package com.wahidabd.synrgy.data.remote
 
 import com.wahidabd.synrgy.common.Resource
-import com.wahidabd.synrgy.common.ResponseListWrapper
 import com.wahidabd.synrgy.data.remote.dto.AnimeListResponse
 import com.wahidabd.synrgy.data.remote.dto.AnimeResponse
-import kotlinx.coroutines.flow.Flow
 
 
 /**
@@ -15,4 +13,5 @@ import kotlinx.coroutines.flow.Flow
 
 interface AnimeRepository {
     suspend fun getAnime(): Resource<AnimeListResponse>
+    suspend fun getAnimeById(id: Int): Resource<AnimeResponse>
 }

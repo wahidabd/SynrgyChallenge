@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Synrgy</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_search">Cari</string>
+    <string name="email">Email</string>
+    <string name="password">Kata sandi</string>
+    <string name="login">Masuk</string>
+    <string name="no_account">Belum punya akun?</string>
+    <string name="username">Username</string>
+    <string name="have_account">Sudah punya akun?</string>
+    <string name="register">Daftar</string>
+    <string name="comments">Komentar</string>
+    <string name="message_invalid_email_password">Email atau password salah!</string>
+    <string name="message_check_your_input">Tolong cek inputan anda!</string>
+    <string name="message_success_register">Pendaftaran berhasil</string>
+</resources>

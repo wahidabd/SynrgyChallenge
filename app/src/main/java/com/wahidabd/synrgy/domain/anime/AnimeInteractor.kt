@@ -2,6 +2,7 @@ package com.wahidabd.synrgy.domain.anime
 
 import com.wahidabd.synrgy.common.Resource
 import com.wahidabd.synrgy.data.remote.AnimeRepository
+import com.wahidabd.synrgy.data.remote.dto.AnimeResponse
 import com.wahidabd.synrgy.domain.anime.model.Anime
 import com.wahidabd.synrgy.domain.anime.model.toDomain
 import kotlinx.coroutines.flow.Flow
@@ -33,6 +34,16 @@ class AnimeInteractor(private val repository: AnimeRepository) : AnimeUseCase {
                 )
 
             is Resource.Loading -> emit(Resource.loading())
+        }
+    }
+
+    override suspend fun getAnimeById(id: Int): Flow<Resource<Anime>> {
+        return flow {
+            when (val response = repository.getAnimeById(id)) {
+                is Resource.Success -> emit(Resource.success(response.data.toDomain()))
+                is Resource.Error -> emit(Resource.error(response.message))
+                is Resource.Loading -> emit(Resource.loading())
+            }
         }
     }
 

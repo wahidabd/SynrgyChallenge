@@ -13,4 +13,5 @@ import kotlinx.coroutines.flow.Flow
 
 interface AnimeUseCase {
     suspend fun getAnime(): Flow<Resource<List<Anime>>>
+    suspend fun getAnimeById(id: Int): Flow<Resource<Anime>>
 }

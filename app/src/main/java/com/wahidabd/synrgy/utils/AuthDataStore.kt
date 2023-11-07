@@ -42,7 +42,17 @@ class AuthDataStore(context: Context) {
         }
     }
 
-    fun getUser(): Flow<AuthUser> = dataStore.data.map { preferences ->
+    fun getUser(email: String, password: String): Flow<Boolean> = dataStore.data.map { preferences ->
+        val data = AuthUser(
+            preferences[NAME] ?: "",
+            preferences[EMAIL] ?: "",
+            preferences[PASSWORD] ?: ""
+        )
+
+        data.email == email && data.password == password
+    }
+
+    fun getUserInformation(): Flow<AuthUser> = dataStore.data.map { preferences ->
         AuthUser(
             preferences[NAME] ?: "",
             preferences[EMAIL] ?: "",

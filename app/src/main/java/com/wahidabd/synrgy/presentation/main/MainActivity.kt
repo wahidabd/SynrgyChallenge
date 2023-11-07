@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun setupRecyclerView(){
+    private fun setupRecyclerView() {
         binding.rvAnime.apply {
             adapter = animeAdapter
         }

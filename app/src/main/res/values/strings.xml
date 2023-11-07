@@ -2,19 +2,6 @@
     <string name="app_name">Synrgy</string>
     <string name="title_home">Home</string>
     <string name="title_search">Search</string>
-    <string name="title_add">Add</string>
-    <string name="title_reels">Reels</string>
-    <string name="title_profile">Profile</string>
-    <string name="cost_of_service">Cost of Service</string>
-    <string name="how_was_the_service">How was the service?</string>
-    <string name="amazing_service">Amazing (20%)</string>
-    <string name="good_service">Good (18%)</string>
-    <string name="ok_service">Okay (15%)</string>
-    <string name="round_up_tip">Round up tip?</string>
-    <string name="calculate">Calculate</string>
-    <string name="tip_amount">Tip Amount</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="login">Login</string>
@@ -23,4 +10,7 @@
     <string name="have_account">Already have an account?</string>
     <string name="register">Register</string>
     <string name="comments">Comments</string>
+    <string name="message_invalid_email_password">Email or Password is wrong!</string>
+    <string name="message_check_your_input">Please check your input!</string>
+    <string name="message_success_register">Register success</string>
 </resources>

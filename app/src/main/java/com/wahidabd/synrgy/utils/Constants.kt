@@ -18,4 +18,5 @@ object Constants {
 
     private const val BASE_URL = "https://api.jikan.moe/v4"
     const val TOP_ANIME = "$BASE_URL/top/anime"
+    const val DETAIL_ANIME = "$BASE_URL/anime/{id}"
 }

@@ -1,7 +1,6 @@
 package com.wahidabd.synrgy.data.remote.service
 
 import com.wahidabd.synrgy.common.Resource
-import com.wahidabd.synrgy.common.ResponseListWrapper
 import com.wahidabd.synrgy.data.remote.AnimeRepository
 import com.wahidabd.synrgy.data.remote.dto.AnimeListResponse
 import com.wahidabd.synrgy.data.remote.dto.AnimeResponse
@@ -11,6 +10,7 @@ import io.ktor.client.call.body
 import io.ktor.client.network.sockets.ConnectTimeoutException
 import io.ktor.client.plugins.ClientRequestException
 import io.ktor.client.request.get
+import io.ktor.http.path
 
 
 /**
@@ -25,6 +25,23 @@ class AnimeService(private val httpClient: HttpClient) : AnimeRepository {
         try {
             val response =
                 httpClient.get(Constants.TOP_ANIME).body<AnimeListResponse>()
+            Resource.Success(response)
+        } catch (e: Exception) {
+            when (e) {
+                is ClientRequestException -> Resource.Error(e.message)
+                is ConnectTimeoutException -> Resource.Error(e.message ?: "Error")
+                else -> Resource.Error(e.message ?: "Error")
+            }
+        }
+
+    override suspend fun getAnimeById(id: Int): Resource<AnimeResponse> =
+        try {
+            val response =
+                httpClient.get(Constants.DETAIL_ANIME){
+                    url {
+                        path(id.toString())
+                    }
+                }.body<AnimeResponse>()
             Resource.Success(response)
         } catch (e: Exception) {
             when (e) {
