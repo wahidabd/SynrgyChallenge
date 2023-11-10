@@ -9,6 +9,15 @@
     android:background="@color/colorPrimary"
     tools:context=".presentation.auth.LoginActivity">
 
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MaterialTextView.Medium"
+        android:layout_gravity="end"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="20dp"/>
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="120dp"
         android:layout_height="120dp"

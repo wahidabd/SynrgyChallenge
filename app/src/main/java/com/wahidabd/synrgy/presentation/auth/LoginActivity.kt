@@ -3,6 +3,7 @@ package com.wahidabd.synrgy.presentation.auth
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.provider.Settings
 import androidx.appcompat.app.AppCompatActivity
 import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.databinding.ActivityLoginBinding
@@ -10,6 +11,7 @@ import com.wahidabd.synrgy.presentation.main.MainActivity
 import com.wahidabd.synrgy.utils.textTrim
 import com.wahidabd.synrgy.utils.toast
 import org.koin.android.ext.android.inject
+import java.util.Locale
 
 class LoginActivity : AppCompatActivity() {
 
@@ -19,6 +21,7 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
+
     private val viewModel: AuthViewModel by inject()
     private lateinit var binding: ActivityLoginBinding
 
@@ -27,6 +30,8 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.tvLanguage.text = Locale.getDefault().language
+
         handleClick()
         observable()
     }
@@ -34,6 +39,10 @@ class LoginActivity : AppCompatActivity() {
     private fun handleClick() = with(binding) {
         tvNoAccount.setOnClickListener { RegisterActivity.start(this@LoginActivity) }
         btnLogin.setOnClickListener { handleLogin() }
+
+        tvLanguage.setOnClickListener {
+            startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
+        }
     }
 
     private fun handleLogin() = with(binding) {

@@ -7,6 +7,9 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.wahidabd.synrgy.common.Resource
 import com.wahidabd.synrgy.databinding.ActivityMainBinding
+import com.wahidabd.synrgy.presentation.auth.AuthViewModel
+import com.wahidabd.synrgy.presentation.auth.LoginActivity
+import com.wahidabd.synrgy.utils.toast
 import org.koin.android.ext.android.inject
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +22,8 @@ class MainActivity : AppCompatActivity() {
 
 
     private val animeAdapter by lazy { AnimeAdapter() }
+
+    private val authViewModel: AuthViewModel by inject()
     private val viewModel: MainViewModel by inject()
 
     private lateinit var binding: ActivityMainBinding
@@ -31,14 +36,27 @@ class MainActivity : AppCompatActivity() {
         setupRecyclerView()
 
         viewModel.getTopAnime()
+
+        initListener()
         observers()
     }
+
+
+    private fun initListener() = with(binding) {
+        imgLogout.setOnClickListener {
+            authViewModel.setLogin(false)
+            LoginActivity.start(this@MainActivity)
+            finish()
+        }
+    }
+
+
 
     private fun observers() {
         viewModel.topAnimes.observe(this) {
             when (it) {
                 is Resource.Loading -> Log.d("Main", "Loading")
-                is Resource.Error -> Log.d("Main", it.message)
+                is Resource.Error -> toast(it.message)
                 is Resource.Success -> animeAdapter.setData(it.data)
             }
         }

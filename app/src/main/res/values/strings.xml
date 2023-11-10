@@ -13,4 +13,7 @@
     <string name="message_invalid_email_password">Email or Password is wrong!</string>
     <string name="message_check_your_input">Please check your input!</string>
     <string name="message_success_register">Register success</string>
+    <string name="label_setting">Setting</string>
+    <string name="label_indonesia">IN</string>
+    <string name="label_english">EN</string>
 </resources>

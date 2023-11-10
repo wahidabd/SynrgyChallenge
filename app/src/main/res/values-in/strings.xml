@@ -14,4 +14,7 @@
     <string name="message_invalid_email_password">Email atau password salah!</string>
     <string name="message_check_your_input">Tolong cek inputan anda!</string>
     <string name="message_success_register">Pendaftaran berhasil</string>
+    <string name="label_setting">Pengaturan</string>
+    <string name="label_indonesia">IN</string>
+    <string name="label_english">EN</string>
 </resources>

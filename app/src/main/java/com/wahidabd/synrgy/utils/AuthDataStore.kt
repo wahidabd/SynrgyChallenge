@@ -60,6 +60,7 @@ class AuthDataStore(context: Context) {
         )
     }
 
+
     companion object {
         private val NAME = stringPreferencesKey(Constants.PREF_NAME)
         private val EMAIL = stringPreferencesKey(Constants.PREF_EMAIL)
