@@ -15,4 +15,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Synrgy"
 include(":app")
- 
+include(":data")
+include(":domain")
+include(":common")
+include(":di")

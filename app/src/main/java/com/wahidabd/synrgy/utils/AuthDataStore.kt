@@ -7,7 +7,8 @@ import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
-import com.wahidabd.synrgy.domain.auth.AuthUser
+import com.wahidabd.common.utils.Constants
+import com.wahidabd.domain.auth.AuthUser
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
@@ -60,12 +61,22 @@ class AuthDataStore(context: Context) {
         )
     }
 
+    suspend fun setImage(image: String){
+        dataStore.edit { preferences ->
+            preferences[IMAGE] = image
+        }
+    }
+
+    fun getImage(): Flow<String> = dataStore.data.map { preferences ->
+        preferences[IMAGE] ?: ""
+    }
 
     companion object {
         private val NAME = stringPreferencesKey(Constants.PREF_NAME)
         private val EMAIL = stringPreferencesKey(Constants.PREF_EMAIL)
         private val PASSWORD = stringPreferencesKey(Constants.PREF_PASSWORD)
         private val IS_LOGIN = booleanPreferencesKey(Constants.PREF_IS_LOGIN)
+        private val IMAGE = stringPreferencesKey(Constants.PREF_IMAGE)
 
         @Volatile
         private var INSTANCE: AuthDataStore? = null

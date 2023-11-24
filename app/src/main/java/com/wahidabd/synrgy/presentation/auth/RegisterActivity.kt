@@ -6,10 +6,10 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.databinding.ActivityRegisterBinding
-import com.wahidabd.synrgy.domain.auth.AuthUser
-import com.wahidabd.synrgy.utils.onBackPress
-import com.wahidabd.synrgy.utils.textTrim
-import com.wahidabd.synrgy.utils.toast
+import com.wahidabd.common.utils.onBackPress
+import com.wahidabd.common.utils.textTrim
+import com.wahidabd.common.utils.toast
+import com.wahidabd.domain.auth.AuthUser
 import org.koin.android.ext.android.inject
 
 class RegisterActivity : AppCompatActivity() {

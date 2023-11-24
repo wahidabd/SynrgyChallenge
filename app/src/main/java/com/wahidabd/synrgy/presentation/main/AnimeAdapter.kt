@@ -4,9 +4,9 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.wahidabd.common.utils.loadImageUrl
+import com.wahidabd.domain.anime.model.Anime
 import com.wahidabd.synrgy.databinding.ItemAnimeBinding
-import com.wahidabd.synrgy.domain.anime.model.Anime
-import com.wahidabd.synrgy.utils.loadImageUrl
 
 
 /**
@@ -18,15 +18,16 @@ import com.wahidabd.synrgy.utils.loadImageUrl
 class AnimeAdapter : RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder>() {
 
     private val list = mutableListOf<Anime>()
+
     @SuppressLint("NotifyDataSetChanged")
-    fun setData(list: List<Anime>){
+    fun setData(list: List<Anime>) {
         this.list.clear()
         this.list.addAll(list)
         notifyDataSetChanged()
     }
 
     private var listener: ((Anime) -> Unit)? = null
-    fun setOnClickListener(listener: (Anime) -> Unit){
+    fun setOnClickListener(listener: (Anime) -> Unit) {
         this.listener = listener
     }
 
@@ -34,7 +35,13 @@ class AnimeAdapter : RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder>() {
         parent: ViewGroup,
         viewType: Int
     ): AnimeAdapter.AnimeViewHolder =
-        AnimeViewHolder(ItemAnimeBinding.inflate(LayoutInflater.from(parent.context), parent, false))
+        AnimeViewHolder(
+            ItemAnimeBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false
+            )
+        )
 
     override fun onBindViewHolder(holder: AnimeAdapter.AnimeViewHolder, position: Int) {
         holder.bind(list[position], listener)

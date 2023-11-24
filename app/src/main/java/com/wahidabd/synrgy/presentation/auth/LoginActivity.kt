@@ -8,8 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import com.wahidabd.synrgy.R
 import com.wahidabd.synrgy.databinding.ActivityLoginBinding
 import com.wahidabd.synrgy.presentation.main.MainActivity
-import com.wahidabd.synrgy.utils.textTrim
-import com.wahidabd.synrgy.utils.toast
+import com.wahidabd.common.utils.textTrim
+import com.wahidabd.common.utils.toast
 import org.koin.android.ext.android.inject
 import java.util.Locale
 

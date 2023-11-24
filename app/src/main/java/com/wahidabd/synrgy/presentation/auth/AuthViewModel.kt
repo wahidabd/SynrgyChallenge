@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.wahidabd.synrgy.domain.auth.AuthUser
+import com.wahidabd.common.utils.isValidEmail
+import com.wahidabd.domain.auth.AuthUser
 import com.wahidabd.synrgy.utils.AuthDataStore
-import com.wahidabd.synrgy.utils.isValidEmail
 import kotlinx.coroutines.launch
 
 
@@ -20,8 +20,6 @@ class AuthViewModel(private val pref: AuthDataStore) : ViewModel() {
 
     val isLogin = pref.getLogin()
 
-    private val _user = MutableLiveData<AuthUser>()
-    val user: LiveData<AuthUser> get() = _user
 
     private val _isLoginSuccess = MutableLiveData<Boolean>()
     val isLoginSuccess: LiveData<Boolean> get() = _isLoginSuccess
@@ -44,14 +42,6 @@ class AuthViewModel(private val pref: AuthDataStore) : ViewModel() {
     fun setLogin(isLogin: Boolean) {
         viewModelScope.launch {
             pref.setLogin(isLogin)
-        }
-    }
-
-    fun getUserInformation() {
-        viewModelScope.launch {
-            pref.getUserInformation().collect {
-                _user.value = it
-            }
         }
     }
 

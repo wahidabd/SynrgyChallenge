@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.wahidabd.synrgy.common.Resource
-import com.wahidabd.synrgy.domain.anime.AnimeUseCase
-import com.wahidabd.synrgy.domain.anime.model.Anime
+import com.wahidabd.common.core.Resource
+import com.wahidabd.domain.anime.AnimeUseCase
+import com.wahidabd.domain.anime.model.Anime
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
