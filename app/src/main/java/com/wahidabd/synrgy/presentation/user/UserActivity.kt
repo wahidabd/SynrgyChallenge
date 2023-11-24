@@ -18,6 +18,9 @@ import com.wahidabd.common.utils.onBackPress
 import com.wahidabd.common.utils.requestPermission
 import com.wahidabd.domain.auth.AuthUser
 import com.wahidabd.synrgy.databinding.ActivityUserBinding
+import com.wahidabd.synrgy.presentation.auth.AuthViewModel
+import com.wahidabd.synrgy.presentation.auth.LoginActivity
+import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.io.File
 
@@ -52,6 +55,7 @@ class UserActivity : AppCompatActivity() {
     )
 
     private var imageUri: Uri? = null
+    private val authViewModel: AuthViewModel by inject()
     private val viewModel: UserViewModel by viewModel()
     private lateinit var binding: ActivityUserBinding
 
@@ -70,6 +74,11 @@ class UserActivity : AppCompatActivity() {
     private fun initListener() = with(binding) {
         ivBack.setOnClickListener { onBackPress() }
         ivProfile.setOnClickListener { checkPermissions() }
+        ivLogout.setOnClickListener {
+            authViewModel.setLogin(false)
+            LoginActivity.start(this@UserActivity)
+            finish()
+        }
     }
 
     private fun initObservers() {

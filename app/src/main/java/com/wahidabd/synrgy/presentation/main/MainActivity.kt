@@ -47,9 +47,6 @@ class MainActivity : AppCompatActivity() {
     private fun initListener() = with(binding) {
         imgUser.setOnClickListener {
             UserActivity.start(this@MainActivity)
-//            authViewModel.setLogin(false)
-//            LoginActivity.start(this@MainActivity)
-//            finish()
         }
     }
 
