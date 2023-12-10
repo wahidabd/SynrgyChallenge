@@ -1,12 +1,16 @@
 package com.wahidabd.synrgy.presentation.main
 
+import android.Manifest
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import com.wahidabd.common.core.Resource
+import com.wahidabd.common.utils.requestPermission
 import com.wahidabd.synrgy.databinding.ActivityMainBinding
 import com.wahidabd.synrgy.presentation.auth.AuthViewModel
 import com.wahidabd.synrgy.presentation.auth.LoginActivity
@@ -17,6 +21,8 @@ import org.koin.android.ext.android.inject
 class MainActivity : AppCompatActivity() {
 
     companion object {
+        private const val REQUEST_PERMISSION_CODE = 1122
+
         fun start(context: Context) {
             context.startActivity(Intent(context, MainActivity::class.java))
         }
@@ -35,11 +41,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) checkPermission()
+
         setupRecyclerView()
+        initListener()
 
         viewModel.getTopAnime()
-
-        initListener()
         observers()
     }
 
@@ -49,8 +56,6 @@ class MainActivity : AppCompatActivity() {
             UserActivity.start(this@MainActivity)
         }
     }
-
-
 
     private fun observers() = with(binding) {
         viewModel.topAnimes.observe(this@MainActivity) { response ->
@@ -78,5 +83,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
+    private fun checkPermission(){
+        requestPermission(
+            permissions = arrayOf(Manifest.permission.POST_NOTIFICATIONS),
+            requestCode = REQUEST_PERMISSION_CODE,
+            doIfGranted = {},
+        )
+    }
 }

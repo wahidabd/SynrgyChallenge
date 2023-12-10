@@ -1,6 +1,6 @@
 package com.wahidabd.di
 
-import com.wahidabd.common.core.ktorHttpClient
+import com.wahidabd.common.core.KtorClient
 import org.koin.dsl.module
 
 
@@ -11,5 +11,5 @@ import org.koin.dsl.module
 
 
 val appModule = module {
-    single { ktorHttpClient }
+    single { KtorClient(get()).ktorHttpClient }
 }

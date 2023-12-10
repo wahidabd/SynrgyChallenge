@@ -21,7 +21,7 @@ data class Anime(
     val score: Double? = 0.0,
 )
 
-fun com.wahidabd.data.remote.dto.AnimeResponse.toDomain(): Anime =
+fun AnimeResponse.toDomain(): Anime =
     Anime(
         malId = malId,
         url = url,

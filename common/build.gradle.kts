@@ -51,7 +51,12 @@ dependencies {
     api("io.ktor:ktor-client-android:2.3.4")
     api("io.ktor:ktor-client-serialization:2.3.4")
     api("io.ktor:ktor-client-logging-jvm:2.3.4")
+    api("io.ktor:ktor-client-okhttp:2.3.4")
+    api("io.ktor:ktor-client-core-jvm:2.3.4")
     api("io.ktor:ktor-client-content-negotiation:2.0.0")
     api("io.ktor:ktor-serialization-kotlinx-json:2.0.0")
 
+    // chucker
+    debugApi("com.github.chuckerteam.chucker:library:4.0.0")
+    releaseApi("com.github.chuckerteam.chucker:library-no-op:4.0.0")
 }

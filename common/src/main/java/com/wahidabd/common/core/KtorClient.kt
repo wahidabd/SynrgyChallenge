@@ -1,9 +1,12 @@
 package com.wahidabd.common.core
 
+import android.content.Context
 import android.util.Log
-import com.wahidabd.common.utils.Constants
+import com.chuckerteam.chucker.api.ChuckerCollector
+import com.chuckerteam.chucker.api.ChuckerInterceptor
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.android.Android
+import io.ktor.client.engine.okhttp.OkHttp
 import io.ktor.client.plugins.DefaultRequest
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
 import io.ktor.client.plugins.logging.LogLevel
@@ -23,38 +26,47 @@ import kotlinx.serialization.json.Json
  */
 
 
-val ktorHttpClient = HttpClient(Android) {
-    install(ContentNegotiation) {
-        json(Json {
-            prettyPrint = true
-            isLenient = true
-            ignoreUnknownKeys = true
-        })
+class KtorClient(context: Context) {
+
+    private val chuckerInterceptor = ChuckerInterceptor.Builder(context)
+        .collector(ChuckerCollector(context))
+        .maxContentLength(250000L)
+        .redactHeaders(emptySet())
+        .alwaysReadResponseBody(true)
+        .build()
+
+    private val okHttpEngine = OkHttp.create {
+        addInterceptor(chuckerInterceptor)
     }
 
+    val ktorHttpClient = HttpClient(okHttpEngine) {
+        expectSuccess = true
+        install(ContentNegotiation) {
+            json(Json {
+                prettyPrint = true
+                isLenient = true
+                ignoreUnknownKeys = true
+            })
+        }
 
-    engine {
-        connectTimeout = Constants.KTOR_TIME_OUT
-        socketTimeout = Constants.KTOR_TIME_OUT
-    }
+        install(Logging) {
+            logger = object : Logger {
+                override fun log(message: String) {
+                    Log.d("Ktor", message)
+                }
+            }
 
-    install(Logging) {
-        logger = object : Logger {
-            override fun log(message: String) {
-                Log.d("Ktor", message)
+            level = LogLevel.ALL
+        }
+
+        install(ResponseObserver) {
+            onResponse { response ->
+                Log.d("Ktor", "Response: ${response.status.value}")
             }
         }
 
-        level = LogLevel.ALL
-    }
-
-    install(ResponseObserver) {
-        onResponse { response ->
-            Log.d("Ktor", "Response: ${response.status.value}")
+        install(DefaultRequest) {
+            header(HttpHeaders.ContentType, ContentType.Application.Json)
         }
-    }
-
-    install(DefaultRequest) {
-        header(HttpHeaders.ContentType, ContentType.Application.Json)
     }
 }

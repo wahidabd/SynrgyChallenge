@@ -1,5 +1,6 @@
 package com.wahidabd.data.remote.service
 
+import com.wahidabd.common.core.KtorClient
 import com.wahidabd.common.core.Resource
 import com.wahidabd.common.utils.Constants
 import com.wahidabd.data.remote.AnimeRepository
@@ -19,12 +20,12 @@ import io.ktor.http.path
  */
 
 
-class AnimeService(private val httpClient: HttpClient) : AnimeRepository {
+class AnimeService(private val ktorClient: HttpClient) : AnimeRepository {
 
     override suspend fun getAnime(): Resource<AnimeListResponse> =
         try {
             val response =
-                httpClient.get(Constants.TOP_ANIME).body<AnimeListResponse>()
+                ktorClient.get(Constants.TOP_ANIME).body<AnimeListResponse>()
             Resource.Success(response)
         } catch (e: Exception) {
             when (e) {
@@ -37,7 +38,7 @@ class AnimeService(private val httpClient: HttpClient) : AnimeRepository {
     override suspend fun getAnimeById(id: Int): Resource<AnimeResponse> =
         try {
             val response =
-                httpClient.get(Constants.DETAIL_ANIME) {
+                ktorClient.get(Constants.DETAIL_ANIME) {
                     url {
                         path(id.toString())
                     }
@@ -50,5 +51,4 @@ class AnimeService(private val httpClient: HttpClient) : AnimeRepository {
                 else -> Resource.Error(e.message ?: "Error")
             }
         }
-
 }
