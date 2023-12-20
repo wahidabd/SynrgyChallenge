@@ -2,7 +2,7 @@ name: Build for CI/CD
 
 on:
   pull_request:
-    branches: [ chapter-8 ]
+    branches: [ master ]
   workflow_dispatch:
     inputs:
       variant:
