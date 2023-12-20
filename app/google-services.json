@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "1032295693401",
+    "project_id": "synrgy-ab96f",
+    "storage_bucket": "synrgy-ab96f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032295693401:android:da03f69cf864bae62dc548",
+        "android_client_info": {
+          "package_name": "com.wahidabd.synrgy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkQz3L_DciMoGbU8-MMG10QkTjgfWJxuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032295693401:android:67cf868e2acba5f62dc548",
+        "android_client_info": {
+          "package_name": "com.wahidabd.synrgy.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkQz3L_DciMoGbU8-MMG10QkTjgfWJxuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032295693401:android:64011afd15afe9082dc548",
+        "android_client_info": {
+          "package_name": "com.wahidabd.synrgy.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkQz3L_DciMoGbU8-MMG10QkTjgfWJxuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
