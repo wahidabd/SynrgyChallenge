@@ -1,0 +1,53 @@
+name: Build for CI/CD
+
+on:
+  pull_request:
+    branches: [ chapter-8 ]
+  workflow_dispatch:
+    inputs:
+      variant:
+        description: 'Build variant'
+        required: true
+        default: 'debug'
+        options:
+          - 'debug'
+          - 'staging'
+          - 'release'
+      release_note:
+        type: string
+        required: true
+        default: 'Manual Debug Release'
+        description: 'Release Note'
+
+jobs:
+  build:
+    name: Building and distribution app
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+
+      - name: Setup Java JDK
+        uses: actions/setup-java@v4.0.0
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: gradle
+
+      - name: Gradle Build Action
+        uses: gradle/gradle-build-action@v2.11.1
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      - name: Execute Gradle command - assembleDebug
+        run: ./gradlew assembleDebug
+
+      - name: upload artifact to Firebase App Distribution
+        uses: wzieba/Firebase-Distribution-Github-Action@v1
+        with:
+          appId: ${{secrets.FIREBASE_APP_ID}}
+          serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
+          groups: testers
+          file: app/build/outputs/apk/debug/app-debug.apk
+          releaseNotes: ${{ inputs.release_notes }}
